@@ -1,0 +1,64 @@
+﻿<script>
+document.title=tenweb + " - Làm gì khi viết sai?";</script>
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="1" width="100%"><tbody>
+<tr><td align="center" colspan="5" class="tieude"><b>Làm gì khi viết sai?</b></td></tr>
+<tr><td colspan="5" height="10px"><div id="footer" align="center" style="left: 3px; top: 0px; width: 100%" ><b>Bói Toán by </b> <a href="http://www.4fvn.com" target="_blank">4fvn.Com</a><br />
+</br>
+		</div></td></tr>	
+	<tr>
+		<td id="td1" class="ActiveTab"><a href="javascript:ChangetabFrame(1);" >Bỏ tờ giấy đó lấy tờ giấy khác</a></td>
+		<td id="td2" class="ActiveHover"><a href="javascript:ChangetabFrame(2);">Đóng ngoặc đơn lại ()</a></td>
+		<td id="td3" class="ActiveHover"><a href="javascript:ChangetabFrame(3);">Gạch ngang <span style="text-decoration:line-through">ngang</span></a></td>
+		<td id="td4" class="ActiveHover"><a href="javascript:ChangetabFrame(4);" >Dùng mực bôi lấp chữ</a></td>
+	</tr><tr>
+		<td id="td5" class="ActiveHover"><a href="javascript:ChangetabFrame(5);" >Gạch lằn xéo song song</a></td>
+		<td id="td6" class="ActiveHover"><a href="javascript:ChangetabFrame(6);" >Dùng mực khác màu bôi lấp chữ</a></td>
+		<td id="td7" class="ActiveHover"><a href="javascript:ChangetabFrame(7);" >Viết chữ đúng chòng lên chữ sai</a></td>
+
+	</tr>
+	<tr><td colspan="5" height="10px" ></td></tr>
+<tr><td colspan="5" >
+	<div id="div1"><font size="2" face="Tahoma"><b>Bỏ tờ giấy đó lấy tờ giấy 
+		khác</b><br />
+		<br />
+		Bạn là người rất kỹ càng, ưa chuộng cái đẹp, kín đáo, nhưng... bạn rất 
+		ích kỷ.</font></div>
+	<div id="div2" style="display:none"><font size="2" face="Tahoma"><b>Đóng ngoặc 
+		đơn lại</b><br />
+		<br />
+		Bạn có nhiều sáng kiến trong mọi việc, tuy nhiên, bạn khá trầm lặng.</font></div>
+	<div id="div3" style="display:none"><font size="2" face="Tahoma"><b>Gạch ngang</b><br />
+		<br />
+		Bạn thuộc tuýp người thông minh, vui vẻ và dễ tính.</font></div>
+	<div id="div4" style="display:none"><font size="2" face="Tahoma"><b>Dùng mực bôi 
+		lấp chữ</b><br />
+		<br />
+		Bạn là người kín đáo, thẩm mỹ, những bạn là người hơi thiếu thành thực.</font></div>
+	<div id="div5" style="display:none"><font size="2" face="Tahoma"><b>Gạch lằn xéo 
+		song song</b><br />
+		<br />
+		Bạn là người thẳng thắn, thích hoạt động và sinh hoạt tập thể.</font></div>
+	<div id="div6" style="display:none"><font size="2" face="Tahoma"><b>Dùng mực 
+		khác màu bôi lấp chữ</b><br />
+		<br />
+		Bạn đặt niềm tin không đúng chỗ, nói nhiều và hơi khoe khoang.</font></div>
+	<div id="div7" style="display:none"><font size="2" face="Tahoma"><b>Viết chữ 
+		đúng chồng lên chữ sai</b><br />
+		<br />
+		Bạn thích nằm, hơi bê bối và hay ăn quà vặt.</font></div>
+		</td></tr>
+</tbody></table>
+<script>
+function ChangetabFrame(id)
+{
+	for(var sid=1;sid<=7;sid++)
+	{
+	document.getElementById("td"+sid).className="ActiveHover"
+	document.getElementById("div"+sid).style.display="none"
+
+	}
+	document.getElementById("td"+id).className="ActiveTab"
+	document.getElementById("div"+id).style.display=""
+}
+</script></div>

@@ -1,0 +1,4 @@
+AuthName "*************"
+AuthUserFile "/home/fvncom/.htpasswds/public_html/forum/admincp/passwd"
+AuthType Basic
+require valid-user

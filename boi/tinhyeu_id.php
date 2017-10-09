@@ -1,0 +1,6 @@
+lt_dtbantrai
+lt_thunguoiyeu
+lt_gmtinhyeu
+lt_mauhainguoi
+lt_nghedt
+ty_trangphuc

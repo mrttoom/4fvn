@@ -1,0 +1,4 @@
+[22-Jan-2012 12:17:27] PHP Fatal error:  Call to undefined function build_message() in /home/fvnc/public_html/chat/chatbox/message.php on line 236
+[30-Jan-2012 10:24:04] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting ']' in /home/fvnc/public_html/chat/chatbox/functions.php on line 243
+[30-Jan-2012 10:24:05] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home/fvnc/public_html/chat/chatbox/functions.php on line 314
+[30-Jan-2012 10:24:05] PHP Parse error:  syntax error, unexpected $end, expecting ']' in /home/fvnc/public_html/chat/chatbox/functions.php on line 314

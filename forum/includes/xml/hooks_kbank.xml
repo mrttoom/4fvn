@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<hooks>
+	<hooktype type="kBank Global">
+		<hook>kbank_init</hook>
+		<hook>kbank_navbar_popup_menu</hook>
+		<hook>kbank_main</hook>
+	</hooktype>
+	
+	<hooktype type="kBank Admin">
+		<hook>kbankadmin_tools_main</hook>
+		<hook>kbankadmin_tools_list</hook>
+	</hooktype>
+
+</hooks>

@@ -1,0 +1,1 @@
+Chip Chatbox 1.5|2|10|/prune|đéo,ngu,chó|30|5,30|100|670|200|/ban,/unban|/banip,/unbanip|/del

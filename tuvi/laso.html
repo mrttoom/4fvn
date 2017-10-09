@@ -1,0 +1,464 @@
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Lấy lá số Tử Vi</title>
+    <script type="text/javascript" src="laylaso_fb.js"></script>
+    <style type="text/css">
+        .style1
+        {
+            width: 62px;
+        }
+    </style>
+</head>
+<body onload="LayLaSo();">
+    <div style="font-family:Tahoma; font-size:10pt; background-image:url('hinh.jpg'); background-repeat:no-repeat;">
+        <table style="width:780px; height:1120px; vertical-align:top; border:1px solid black;" cellpadding="0" cellspacing="0">
+            <tr style=" height:280px;vertical-align:top; border:1px solid black;">
+                <td style="width:25%; vertical-align:top; border:1px solid black;">
+                    <div id="div_Ty_Content" style="position:relative; width:100%; height:90%; margin-top:10px;">
+                        <div id="div_ThinTy_TuanTriet" style="display:none; background-color:Silver; padding:2px; font-size:9pt; font-weight:bold; text-align:center; position:absolute; top:262px;"></div>
+                        <div id="div_Ty_Header" style="position:absolute; top:0px; left:0px; width:100%; height:25.5px; ">
+                            <div id="div_Ty_THAN" style="position:absolute; top:0px; left:0px; width:20%; text-align:center; font-weight:bold; padding-top:7px; font-size:8pt;"></div>
+                            <div id="div_Ty_CUNG" style="position:absolute; font-weight:bolder; top:0px; left:20%; width:66%; text-align:center; padding-top:3px; font-size:10pt; color:Blue;text-transform:uppercase;"></div>
+                            <div id="div_Ty_Tuoi" style="position:absolute; top:0px; right:0; width:15%; text-align:center; font-weight:bold; font-size:8pt; padding-top:7px;"></div>
+                        </div>
+                        <div id="div_Ty_CHINHTINH_TV" style="position:absolute; font-weight:bold; top:25.5px; left:0; width:100%; height:40px; text-align:center; padding-top:10px; font-size:11pt;">
+                            
+                        </div>
+                        <div id="div_Ty_Body" style="position:absolute; top:75px; left:0; width:100%; height:160px; font-size:12px;">
+                            <div id="div_Ty_Trai" style="float:left; width:48%; height:95%; padding-left:7px; padding-top:3px;">
+                                
+                            </div>
+                            <div id="div_Ty_Phai" style="float:right; width:48%; height:95%; padding-top:3px;">
+                                
+                            </div>
+                        </div>
+                        <div id="div_Ty_Footer" style="position:absolute; top:245px; left:0; width:100%; height:25.5px; ">
+                            <div id="div_Ty_HN2" style="float:left; width:77%; height:80%; text-align:left; padding-top:5px; padding-left:3px;"></div>
+                            <div id="div_Ty_TTH" style="float:right; width:20%; height:80%; text-align:center; padding-top:5px; font-size:8pt; font-weight:bold;"></div>
+                        </div>
+                    </div>
+                </td>
+                <td style="width:25%; vertical-align:top; border:1px solid black;">
+                      <div id="div_Ngo_Content" style="position:relative; width:100%;  height:90%; margin-top:10px;">
+                        <div id="div2" style="position:absolute; top:0px; left:0px; width:100%; height:25.5px; ">
+                            <div id="div_Ngo_THAN" style="position:absolute; top:0px; left:0px; width:20%; text-align:center; font-weight:bold; padding-top:7px; font-size:8pt;"></div>
+                            <div id="div_Ngo_CUNG" style="position:absolute; font-weight:bolder; top:0px; left:20%; width:66%; text-align:center; padding-top:3px; font-size:10pt;color:Blue;text-transform:uppercase;"></div>
+                            <div id="div_Ngo_Tuoi" style="position:absolute; top:0px; right:0; width:15%; text-align:center; font-weight:bold; font-size:8pt; padding-top:7px;"></div>
+                        </div>
+                        <div id="div_Ngo_CHINHTINH_TV" style="position:absolute; font-weight:bold; top:25.5px; left:0; width:100%; height:40px; text-align:center; padding-top:10px; font-size:11pt;">
+                            
+                        </div>
+                        <div id="div7" style="position:absolute; top:75px; left:0; width:100%; height:160px; font-size:12px;">
+                            <div id="div_Ngo_Trai" style="float:left; width:48%; height:95%; padding-left:7px; padding-top:3px;">
+                                
+                            </div>
+                            <div id="div_Ngo_Phai" style="float:right; width:48%; height:95%; padding-top:3px;">
+                                
+                            </div>
+                        </div>
+                        <div id="div10" style="position:absolute; top:245px; left:0; width:100%; height:25.5px; ">
+                            <div id="div_Ngo_HN2" style="float:left; width:77%; height:80%; text-align:left; padding-top:5px; padding-left:3px;"></div>
+                            <div id="div_Ngo_TTH" style="float:right; width:20%; height:80%; text-align:center; padding-top:5px; font-size:8pt; font-weight:bold;"></div>
+                        </div>
+                    </div>
+                </td>
+                <td style="width:25%; vertical-align:top; border:1px solid black;">
+                 <div id="div_Mui_Content" style="position:relative; width:100%;  height:90%; margin-top:10px;">
+                        <div id="div3" style="position:absolute; top:0px; left:0px; width:100%; height:25.5px; ">
+                            <div id="div_Mui_THAN" style="position:absolute; top:0px; left:0px; width:20%; text-align:center; font-weight:bold; padding-top:7px; font-size:8pt;"></div>
+                            <div id="div_Mui_CUNG" style="position:absolute; font-weight:bolder; top:0px; left:20%; width:66%; text-align:center; padding-top:3px; font-size:10pt;color:Blue;text-transform:uppercase;"></div>
+                            <div id="div_Mui_Tuoi" style="position:absolute; top:0px; right:0; width:15%; text-align:center; font-weight:bold; font-size:8pt; padding-top:7px;"></div>
+                        </div>
+                        <div id="div_Mui_CHINHTINH_TV" style="position:absolute; font-weight:bold; top:25.5px; left:0; width:100%; height:40px; text-align:center; padding-top:10px; font-size:11pt;">
+                            
+                        </div>
+                        <div id="div9" style="position:absolute; top:75px; left:0; width:100%; height:160px; font-size:12px;">
+                            <div id="div_Mui_Trai" style="float:left; width:48%; height:95%; padding-left:7px; padding-top:3px;">
+                                
+                            </div>
+                            <div id="div_Mui_Phai" style="float:right; width:48%; height:95%; padding-top:3px;">
+                                
+                            </div>
+                        </div>
+                        <div id="div13" style="position:absolute; top:245px; left:0; width:100%; height:25.5px; ">
+                            <div id="div_Mui_HN2" style="float:left; width:77%; height:80%; text-align:left; padding-top:5px; padding-left:3px;"></div>
+                            <div id="div_Mui_TTH" style="float:right; width:20%; height:80%; text-align:center; padding-top:5px; font-size:8pt; font-weight:bold;"></div>
+                        </div>
+                    </div>
+                </td>
+                <td style="width:25%; vertical-align:top; border:1px solid black;">
+                             <div id="div1" style="position:relative; width:100%;  height:90%; margin-top:10px;">
+                             <div id="div_ThanDau_TuanTriet" style="display:none; background-color:Silver; padding:2px; font-size:9pt; font-weight:bold; text-align:center; position:absolute; top:262px;"></div>
+                        <div id="div4" style="position:absolute; top:0px; left:0px; width:100%; height:25.5px; ">
+                            <div id="div_Than_THAN" style="position:absolute; top:0px; left:0px; width:20%; text-align:center; font-weight:bold; padding-top:7px; font-size:8pt;"></div>
+                            <div id="div_Than_CUNG" style="position:absolute; font-weight:bolder; top:0px; left:20%; width:66%; text-align:center; padding-top:3px; font-size:10pt;color:Blue;text-transform:uppercase;"></div>
+                            <div id="div_Than_Tuoi" style="position:absolute; top:0px; right:0; width:15%; text-align:center; font-weight:bold; font-size:8pt; padding-top:7px;"></div>
+                        </div>
+                        <div id="div_Than_CHINHTINH_TV" style="position:absolute; font-weight:bold; top:25.5px; left:0; width:100%; height:40px; text-align:center; padding-top:10px; font-size:11pt;">
+                           
+                        </div>
+                        <div id="div12" style="position:absolute; top:75px; left:0; width:100%; height:160px; font-size:12px;">
+                            <div id="div_Than_Trai" style="float:left; width:48%; height:95%; padding-left:7px; padding-top:3px;">
+                               
+                            </div>
+                            <div id="div_Than_Phai" style="float:right; width:48%; height:95%; padding-top:3px;">
+                                
+                            </div>
+                        </div>
+                        <div id="div16" style="position:absolute; top:245px; left:0; width:100%; height:25.5px; ">
+                            <div id="div_Than_HN2" style="float:left; width:77%; height:80%; text-align:left; padding-top:5px; padding-left:3px;"></div>
+                            <div id="div_Than_TTH" style="float:right; width:20%; height:80%; text-align:center; padding-top:5px; font-size:8pt; font-weight:bold;"></div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+                <tr style=" height:280px;vertical-align:top; border:1px solid black;">
+                <td style="width:25%; vertical-align:top; border:1px solid black;">
+                    <div id="div_Thin_Content" style="position:relative; width:100%; height:90%; margin-top:10px;">
+                        <div id="div_MaoThin_TuanTriet" style="display:none; background-color:Silver; padding:1px; font-size:9pt; font-weight:bold; text-align:center; position:absolute; top:262px;"></div> 
+                        <div id="div6" style="position:absolute; top:0px; left:0px; width:100%; height:25.5px; ">
+                            <div id="div_Thin_THAN" style="position:absolute; top:0px; left:0px; width:20%; text-align:center; font-weight:bold; padding-top:7px; font-size:8pt;"></div>
+                            <div id="div_Thin_CUNG" style="position:absolute; font-weight:bolder; top:0px; left:20%; width:66%; text-align:center; padding-top:3px; font-size:10pt;color:Blue;text-transform:uppercase;"></div>
+                            <div id="div_Thin_Tuoi" style="position:absolute; top:0px; right:0; width:15%; text-align:center; font-weight:bold; font-size:8pt; padding-top:7px;"></div>
+                        </div>
+                        <div id="div_Thin_CHINHTINH_TV" style="position:absolute; font-weight:bold; top:25.5px; left:0; width:100%; height:40px; text-align:center; padding-top:10px; font-size:11pt;">
+                            
+                        </div>
+                        <div style="position:absolute; top:75px; left:0; width:100%; height:160px; font-size:12px;">
+                            <div id="div_Thin_Trai" style="float:left; width:48%; height:95%; padding-left:7px; padding-top:3px;">
+                                
+                            </div>
+                            <div id="div_Thin_Phai" style="float:right; width:48%; height:95%; padding-top:3px;">
+                                
+                            </div>
+                        </div>
+                        <div id="div20" style="position:absolute; top:245px; left:0; width:100%; height:25.5px; ">
+                            <div id="div_Thin_HN2" style="float:left; width:77%; padding-left:3px; height:80%; text-align:left; padding-top:5px;"></div>
+                            <div id="div_Thin_TTH" style="float:right; width:20%; height:80%; text-align:center; padding-top:5px; font-size:8pt; font-weight:bold;"></div>
+                        </div>
+                    </div>
+                </td>
+                <td style="vertical-align:top; border:1px solid black;" colspan="2" rowspan="2">
+                    <div id="Div_Dia_Ban" style="width:100%; height:100%; top:0; left:0; position:relative; font-size:8pt;">
+                        <div id="div_NgoMui_TuanTriet" style="display:none; background-color:Silver; padding:2px; font-size:9pt; font-weight:bold; text-align:center; top:-7px; position:absolute;"></div>
+                        <div id="div_TiSuu_TuanTriet" style="display:none; background-color:Silver; padding:2px; font-size:9pt; font-weight:bold; text-align:center; top:553px; position:absolute;"></div>
+
+                        <div id="div_Ty_THN" style="width:30px;  float:left; padding-left:2px; font-weight:bold; text-decoration:underline;"></div>
+                        <div id="div_Ngo_THN" style="width:162px;  float:left; text-align:center; font-weight:bold; text-decoration:underline;"></div>
+                        <div id="div_Mui_THN" style="width:158px;  float:left; text-align:center; font-weight:bold; text-decoration:underline;"></div>
+                        <div id="div_Than_THN" style="width:30px;  float:right; text-align:right; padding-right:2px; font-weight:bold; text-decoration:underline;"></div>
+
+                        <div id="div_Thin_THN" style="width:30px;  float:left; top:135px; position:absolute; padding-left:2px; font-weight:bold; text-decoration:underline;"></div>
+                        <div id="div_Dau_THN" style="width:30px;  left:355px; top:135px; position:absolute; text-align:right; padding-right:2px; font-weight:bold; text-decoration:underline;"></div>
+                        <div id="div_Mao_THN" style="width:30px;  float:left; top:380px; position:absolute; padding-left:2px; font-weight:bold; text-decoration:underline;"></div>
+                        <div id="div_Tuat_THN" style="width:30px;  left:355px; top:380px; position:absolute; text-align:right; padding-right:2px; font-weight:bold; text-decoration:underline;"></div>
+
+                        <div id="div_Dan_THN" style="width:30px;  float:left; top:543px; position:absolute; padding-left:2px; font-weight:bold; text-decoration:underline;"></div>
+                        <div id="div_Suu_THN" style="width:162px;  float:left; left:30px; top:543px; text-align:center; position:absolute; font-weight:bold; text-decoration:underline;"></div>
+                        <div id="div_Ti_THN" style="width:161px;  float:left; left:194px; top:543px; text-align:center; position:absolute; font-weight:bold; text-decoration:underline;"></div>
+                        <div id="div_Hoi_THN" style="width:30px;  float:right; left:355px; top:543px; text-align:right; position:absolute; padding-right:2px; font-weight:bold; text-decoration:underline;"></div>
+
+                        <div id="Div_Data" style="width:80%; height:85%; margin-left:40px; margin-top:40px; position:absolute;">
+                            <table style="margin-left:20px; font-size:10pt;">
+                            <tr>
+                                <td class="style1">Họ và tên</td>
+                                <td>:</td>
+                                <td colspan="5"><div id='div_hovaten' style="font-weight:bold;"/></td>
+                            </tr>
+                            <tr style="font-family:Tahoma; font-size:8px; color:#085c74; font-weight:bold;">
+                                <td class="style1">&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>+</td>
+                                <td>-</td>
+                                <td>&nbsp;</td>
+                                <td colspan="2">Can - Chi</td>
+                            </tr>
+                            <tr>
+                                <td class="style1">Năm</td>
+                                <td>:</td>
+                                <td><div id="div_namdl" style="font-weight:bold; color:#085c74;" /></td>
+                                <td><div id="div_namal" style="font-weight:bold;" /></td>
+                                <td>&nbsp;</td>
+                                <td><div id="div_NamCC" style="font-weight:bold;"></div></td>
+                                <td><div id="div_NamCChi" style="font-weight:bold;"></div></td>
+                            </tr>
+                            <tr>
+                                <td class="style1">Tháng</td>
+                                <td>:</td>
+                                <td><div id="div_thangdl" style="font-weight:bold; color:#085c74;" /></td>
+                                <td><div id="div_thangal" style="font-weight:bold;" /></td>
+                                <td>&nbsp;</td>
+                                <td><div id="div_ThangCC" style="font-weight:bold;"/></td>
+                                <td><div id="div_ThangCChi" style="font-weight:bold;"/></td>
+                            </tr>
+                            <tr>
+                                <td class="style1">Ngày</td>
+                                <td>:</td>
+                                <td><div id="div_ngaydl" style="font-weight:bold; color:#085c74;" /></td>
+                                <td><div id="div_ngayal" style="font-weight:bold;" /></td>
+                                <td>&nbsp;</td>
+                                <td><div id="div_NgayCC" style="font-weight:bold;"/></td>
+                                <td><div id="div_NgayCChi" style="font-weight:bold;"/></td>
+                            </tr>
+                            <tr>
+                                <td class="style1">Giờ</td>
+                                <td>:</td>
+                                <td colspan="3"><div id="div_giodl" style="font-weight:bold; color:#085c74;" /></td>
+                                <td><div id="div_GioCC" style="font-weight:bold;"/></td>
+                                <td><div id="div_GioCChi" style="font-weight:bold;"/></td>
+                            </tr>
+                            <tr>
+                                <td colspan="7">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style1">Tuổi</td>
+                                <td>:</td>
+                                <td colspan="5">
+                                                <div id="div_ADSex" style="font-weight:bold; width:100px;">
+                                                </div>
+                                            </td>
+                            </tr>
+                            <tr>
+                                <td class="style1">Bản mệnh</td>
+                                <td>:</td>
+                                <td colspan="5"><div id="div_NHNA" style="font-weight:bold;"></div></td>
+                            </tr>
+                            <tr>
+                                <td class="style1">Cục</td>
+                                <td>:</td>
+                                <td colspan="5"><div id="div_CUCLaSo" style="font-weight:bold;" /></td>
+                            </tr>
+                            <tr>
+                                <td class="style1">&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td colspan="5">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td class="style1">Chủ Mệnh</td>
+                                <td>:</td>
+                                <td colspan="5"><div id="div_Sao_ChuMenh" style="font-weight:bold;"></div></td>
+                            </tr>
+                            <tr>
+                                <td class="style1">Chủ Thân</td>
+                                <td>:</td>
+                                <td colspan="5"><div id="div_Sao_ChuThan" style="font-weight:bold;"></div></td>
+                            </tr>
+                            <tr>
+                                <td class="style1">Phạm giờ</td>
+                                <td>:</td>
+                                <td colspan="5"><div id="div_PhamGio" style="font-weight:bold;"/>Không</td>
+                            </tr>
+                            <tr>
+                                <td colspan="7">
+                                    <table style="width:70%; font-size:10pt; margin-top:10px; margin-left:35px;">
+                                        <tr>
+                                            <td>
+                                                <div id="div_namansaoluu" style="font-weight:bold; color:#085c74; width:40px; ">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                -</td>
+                                            <td>
+                                                <div id="div_namASLCC" 
+                                                    style="font-weight:bold;width:75px; margin-left:3px;">
+                                                </div>
+                                            </td>
+                                            <td>
+                                                -</td>
+                                            <td>
+                                                <div id="div_tuoimu" style="font-weight:bold; width:55px;">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="7" 
+                                    style="font-size:smaller; text-align:left; padding-right:5px; width:280px; padding-left:35px;">
+                                    Copyright 2013 &copy; <a href="http://4fvn.com">http://4fvn.com</a></td>
+                            </tr>
+                        </table>
+                        </div>
+                    </div>
+ 
+                </td>
+                <td style="width:25%; vertical-align:top; border:1px solid black;">
+                    <div id="div_Dau_Content" style="position:relative; width:100%;  height:90%; margin-top:10px;">
+                        <div id="div_DauTuat_TuanTriet" style="display:none; background-color:Silver; padding:2px; font-size:9pt; font-weight:bold; text-align:center; position:absolute; top:262px; "></div>
+                        <div id="div48" style="position:absolute; top:0px; left:0px; width:100%; height:25.5px; ">
+                            <div id="div_Dau_THAN" style="position:absolute; top:0px; left:0px; width:20%; text-align:center; font-weight:bold; padding-top:7px; font-size:8pt;"></div>
+                            <div id="div_Dau_CUNG" style="position:absolute; font-weight:bolder; top:0px; left:20%; width:66%; text-align:center; padding-top:3px; font-size:10pt;color:Blue;text-transform:uppercase;"></div>
+                            <div id="div_Dau_Tuoi" style="position:absolute; top:0px; right:0; width:15%; text-align:center; font-weight:bold; font-size:8pt; padding-top:7px;"></div>
+                        </div>
+                        <div id="div_Dau_CHINHTINH_TV" style="position:absolute; font-weight:bold; top:25.5px; left:0; width:100%; height:40px; text-align:center; padding-top:10px; font-size:11pt;">
+                            
+                        </div>
+                        <div style="position:absolute; top:75px; left:0; width:100%; height:160px; font-size:12px;">
+                            <div id="div_Dau_Trai" style="float:left; width:48%; height:95%; padding-left:7px; padding-top:3px;"></div>
+                            <div id="div_Dau_Phai" style="float:right; width:48%; height:95%; padding-top:3px;"></div>
+                        </div>
+                        <div id="div56" style="position:absolute; top:245px; left:0; width:100%; height:25.5px; ">
+                            <div id="div_Dau_HN2" style="float:left; width:77%; height:80%; text-align:left; padding-top:5px; padding-left:3px;"></div>
+                            <div id="div_Dau_TTH" style="float:right; width:20%; height:80%; text-align:center; padding-top:5px; font-size:8pt; font-weight:bold;"></div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+                  <tr style=" height:280px;vertical-align:top; border:1px solid black;">
+                <td style="width:25%; vertical-align:top; border:1px solid black;">
+                    <div id="div_Mao_Content" style="position:relative; width:100%; height:90%; margin-top:10px;">
+                         <div id="div_DanMao_TuanTriet" style="display:none; background-color:Silver; padding:2px; font-size:9pt; font-weight:bold; text-align:center; position:absolute; top:262px;"></div>
+           
+                        <div id="div60" style="position:absolute; top:0px; left:0px; width:100%; height:25.5px; ">
+                            <div id="div_Mao_THAN" style="position:absolute; top:0px; left:0px; width:20%; text-align:center; font-weight:bold; padding-top:7px; font-size:8pt;"></div>
+                            <div id="div_Mao_CUNG" style="position:absolute; font-weight:bolder; top:0px; left:20%; width:66%; text-align:center; padding-top:3px; font-size:10pt;color:Blue;text-transform:uppercase;"></div>
+                            <div id="div_Mao_Tuoi" style="position:absolute; top:0px; right:0; width:15%; text-align:center; font-weight:bold; font-size:8pt; padding-top:7px;"></div>
+                        </div>
+                        <div id="div_Mao_CHINHTINH_TV" style="position:absolute; font-weight:bold; top:25.5px; left:0; width:100%; height:40px; text-align:center; padding-top:10px; font-size:11pt;">
+                            
+                        </div>
+                        <div id="div65" style="position:absolute; top:75px; left:0; width:100%; height:160px; font-size:12px;">
+                            <div id="div_Mao_Trai" style="float:left; width:48%; height:95%; padding-left:7px; padding-top:3px;">
+                                
+                            </div>
+                            <div id="div_Mao_Phai" style="float:right; width:48%; height:95%; padding-top:3px;">
+                                
+                            </div>
+                        </div>
+                        <div id="div68" style="position:absolute; top:245px; left:0; width:100%; height:25.5px; ">
+                            <div id="div_Mao_HN2" style="float:left; width:77%; height:80%; text-align:left; padding-top:5px; padding-left:3px;"></div>
+                            <div id="div_Mao_TTH" style="float:right; width:20%; height:80%; text-align:center; padding-top:5px; font-size:8pt; font-weight:bold;"></div>
+                        </div>
+                    </div>
+                </td>
+                <td style="width:25%; vertical-align:top; border:1px solid black;">
+                             <div id="div_Tuat_Content" style="position:relative; width:100%;  height:90%; margin-top:10px;">
+                             <div id="div_TuatHoi_TuanTriet" style="display:none; background-color:Silver; padding:2px; font-size:9pt; font-weight:bold; text-align:center; position:absolute; top:262px;"></div>
+                        <div id="div96" style="position:absolute; top:0px; left:0px; width:100%; height:25.5px; ">
+                            <div id="div_Tuat_THAN" style="position:absolute; top:0px; left:0px; width:20%; text-align:center; font-weight:bold; padding-top:7px; font-size:8pt;"></div>
+                            <div id="div_Tuat_CUNG" style="position:absolute; font-weight:bolder; top:0px; left:20%; width:66%; text-align:center; padding-top:3px; font-size:10pt;color:Blue;text-transform:uppercase;"></div>
+                            <div id="div_Tuat_Tuoi" style="position:absolute; top:0px; right:0; width:15%; text-align:center; font-weight:bold; font-size:8pt; padding-top:7px;"></div>
+                        </div>
+                        <div id="div_Tuat_CHINHTINH_TV" style="position:absolute; font-weight:bold; top:25.5px; left:0; width:100%; height:40px; text-align:center; padding-top:10px; font-size:11pt;">
+                            
+                        </div>
+                        <div id="div101" style="position:absolute; top:75px; left:0; width:100%; height:160px; font-size:12px;">
+                            <div id="div_Tuat_Trai" style="float:left; width:48%; height:95%; padding-left:7px; padding-top:3px;">
+                                
+                            </div>
+                            <div id="div_Tuat_Phai" style="float:right; width:48%; height:95%; padding-top:3px;">
+                                
+                            </div>
+                        </div>
+                        <div id="div104" style="position:absolute; top:245px; left:0; width:100%; height:25.5px; ">
+                            <div id="div_Tuat_HN2" style="float:left; width:77%; height:80%; text-align:left; padding-top:5px; padding-left:3px;"></div>
+                            <div id="div_Tuat_TTH" style="float:right; width:20%; height:80%; text-align:center; padding-top:5px; font-size:8pt; font-weight:bold;"></div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+                  <tr style=" height:280px;vertical-align:top; border:1px solid black;">
+                <td style="width:25%; vertical-align:top; border:1px solid black;">
+                    <div id="div107" style="position:relative; width:100%; height:90%; margin-top:10px;">
+                        <div id="div108" style="position:absolute; top:0px; left:0px; width:100%; height:25.5px; ">
+                            <div id="div_Dan_THAN" style="position:absolute; top:0px; left:0px; width:20%; text-align:center; font-weight:bold; padding-top:7px; font-size:8pt;"></div>
+                            <div id="div_Dan_CUNG" style="position:absolute; font-weight:bolder; top:0px; left:20%; width:66%; text-align:center; padding-top:3px; font-size:10pt;color:Blue;text-transform:uppercase;"></div>
+                            <div id="div_Dan_Tuoi" style="position:absolute; top:0px; right:0; width:15%; text-align:center; font-weight:bold; font-size:8pt; padding-top:7px;"></div>
+                        </div>
+                        <div id="div_Dan_CHINHTINH_TV" style="position:absolute; font-weight:bold; top:25.5px; left:0; width:100%; height:40px; text-align:center; padding-top:10px; font-size:11pt;">
+                            
+                        </div>
+                        <div id="div113" style="position:absolute; top:75px; left:0; width:100%; height:160px; font-size:12px;">
+                            <div id="div_Dan_Trai" style="float:left; width:48%; height:95%; padding-left:7px; padding-top:3px;">
+                                
+                            </div>
+                            <div id="div_Dan_Phai" style="float:right; width:48%; height:95%; padding-top:3px;">
+                                
+                            </div>
+                        </div>
+                        <div id="div116" style="position:absolute; top:245px; left:0; width:100%; height:25.5px; ">
+                            <div id="div_Dan_HN2" style="float:left; width:77%; padding-left:3px; height:80%; text-align:left; padding-top:5px;"></div>
+                            <div id="div_Dan_TTH" style="float:right; width:20%; height:80%; text-align:center; padding-top:5px; font-size:8pt; font-weight:bold;"></div>
+                        </div>
+                    </div>
+                </td>
+                <td style="width:25%; vertical-align:top; border:1px solid black;">
+                      <div id="div119" style="position:relative; width:100%;  height:90%; margin-top:10px;">
+                        <div id="div120" style="position:absolute; top:0px; left:0px; width:100%; height:25.5px; ">
+                            <div id="div_Suu_THAN" style="position:absolute; top:0px; left:0px; width:20%; text-align:center; font-weight:bold; padding-top:7px; font-size:8pt;"></div>
+                            <div id="div_Suu_CUNG" style="position:absolute; font-weight:bolder; top:0px; left:20%; width:66%; text-align:center; padding-top:3px; font-size:10pt;color:Blue;text-transform:uppercase;"></div>
+                            <div id="div_Suu_Tuoi" style="position:absolute; top:0px; right:0; width:15%; text-align:center; font-weight:bold; font-size:8pt; padding-top:7px;"></div>
+                        </div>
+                        <div id="div_Suu_CHINHTINH_TV" style="position:absolute; font-weight:bold; top:25.5px; left:0; width:100%; height:40px; text-align:center; padding-top:10px; font-size:11pt;">
+                            
+                        </div>
+                        <div id="div125" style="position:absolute; top:75px; left:0; width:100%; height:160px; font-size:12px;">
+                            <div id="div_Suu_Trai" style="float:left; width:48%; height:95%; padding-left:7px; padding-top:3px;">
+                                
+                            </div>
+                            <div id="div_Suu_Phai" style="float:right; width:48%; height:95%; padding-top:3px;">
+                                
+                            </div>
+                        </div>
+                        <div id="div128" style="position:absolute; top:245px; left:0; width:100%; height:25.5px; ">
+                            <div id="div_Suu_HN2" style="float:left; width:77%; padding-left:3px; height:80%; text-align:left; padding-top:5px;"></div>
+                            <div id="div_Suu_TTH" style="float:right; width:20%; height:80%; text-align:center; padding-top:5px; font-size:8pt; font-weight:bold;"></div>
+                        </div>
+                    </div>
+                </td>
+                <td style="width:25%; vertical-align:top; border:1px solid black;">
+                 <div id="div131" style="position:relative; width:100%;  height:90%; margin-top:10px;">
+                        <div id="div132" style="position:absolute; top:0px; left:0px; width:100%; height:25.5px; ">
+                            <div id="div_Ti_THAN" style="position:absolute; top:0px; left:0px; width:20%; text-align:center; font-weight:bold; padding-top:7px; font-size:8pt;"></div>
+                            <div id="div_Ti_CUNG" style="position:absolute; font-weight:bolder; top:0px; left:20%; width:66%; text-align:center; padding-top:3px; font-size:10pt;color:Blue;text-transform:uppercase;"></div>
+                            <div id="div_Ti_Tuoi" style="position:absolute; top:0px; right:0; width:15%; text-align:center; font-weight:bold; font-size:8pt; padding-top:7px;"></div>
+                        </div>
+                        <div id="div_Ti_CHINHTINH_TV" style="position:absolute; font-weight:bold; top:25.5px; left:0; width:100%; height:40px; text-align:center; padding-top:10px; font-size:11pt;">
+                            
+                        </div>
+                        <div id="div137" style="position:absolute; top:75px; left:0; width:100%; height:160px; font-size:12px;">
+                            <div id="div_Ti_Trai" style="float:left; width:48%; height:95%; padding-left:7px; padding-top:3px;">
+                                
+                            </div>
+                            <div id="div_Ti_Phai" style="float:right; width:48%; height:95%; padding-top:3px;">
+                                
+                            </div>
+                        </div>
+                        <div id="div140" style="position:absolute; top:245px; left:0; width:100%; height:25.5px; ">
+                            <div id="div_Ti_HN2" style="float:left; width:77%; height:80%; text-align:left; padding-top:5px; padding-left:3px;"></div>
+                            <div id="div_Ti_TTH" style="float:right; width:20%; height:80%; text-align:center; padding-top:5px; font-size:8pt; font-weight:bold;"></div>
+                        </div>
+                    </div>
+                </td>
+                <td style="width:25%; vertical-align:top; border:1px solid black;">
+                             <div id="div143" style="position:relative; width:100%;  height:90%; margin-top:10px;">
+                        <div id="div144" style="position:absolute; top:0px; left:0px; width:100%; height:25.5px; ">
+                            <div id="div_Hoi_THAN" style="position:absolute; top:0px; left:0px; width:20%; text-align:center; font-weight:bold; padding-top:7px; font-size:8pt;"></div>
+                            <div id="div_Hoi_CUNG" style="position:absolute; font-weight:bolder; top:0px; left:20%; width:66%; text-align:center; padding-top:3px; font-size:10pt;color:Blue;text-transform:uppercase;"></div>
+                            <div id="div_Hoi_Tuoi" style="position:absolute; top:0px; right:0; width:15%; text-align:center; font-weight:bold; font-size:8pt; padding-top:7px;"></div>
+                        </div>
+                        <div id="div_Hoi_CHINHTINH_TV" style="position:absolute; font-weight:bold; top:25.5px; left:0; width:100%; height:40px; text-align:center; padding-top:10px; font-size:11pt;">
+                            
+                        </div>
+                        <div id="div149" style="position:absolute; top:75px; left:0; width:100%; height:160px; font-size:12px;">
+                            <div id="div_Hoi_Trai" style="float:left; width:48%; height:95%; padding-left:7px; padding-top:3px;">
+                                
+                            </div>
+                            <div id="div_Hoi_Phai" style="float:right; width:48%; height:95%; padding-top:3px;">
+                                
+                            </div>
+                        </div>
+                        <div id="div152" style="position:absolute; top:245px; left:0; width:100%; height:25.5px; ">
+                            <div id="div_Hoi_HN2" style="float:left; width:77%; height:80%; text-align:left; padding-top:5px; padding-left:3px;"></div>
+                            <div id="div_Hoi_TTH" style="float:right; width:20%; height:80%; text-align:center; padding-top:5px; font-size:8pt; font-weight:bold;"></div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

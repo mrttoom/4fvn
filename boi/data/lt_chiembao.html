@@ -1,0 +1,816 @@
+﻿<script>
+document.title=tenweb + " - Giải Mã Chiêm Bao";</script>
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="1" style="width:100%"><tbody>
+<tr><td align="center" colspan="5"><p class="tieude"><b>Giải Mã Chiêm Bao</b></p></td></tr>
+	<tr><td colspan="5" align="center">
+		Hãy chọn một từ liên quan đến giấc mơ của bạn: <select id="mausac" onclick="xem()">
+			<option value="1">Ăn</option>
+			<option value="2">Âm nhạc</option>
+			<option value="3">Ảnh</option>
+			<option value="4">Áo</option>
+			<option value="5">Áp lực</option>
+			<option value="6">Ấu đã</option>
+			<option value="7">Bạc</option>
+			<option value="8">Bãi</option>
+			<option value="9">Bàn</option>
+			<option value="10">Bạn</option>
+			<option value="11">Bánh</option>
+			<option value="12">Bao</option>
+			<option value="13">Báo</option>
+			<option value="14">Bão</option>
+			<option value="15">Bát</option>
+			<option value="16">Bắt</option>
+			<option value="17">Bầu</option>
+			<option value="18">Bay</option>
+			<option value="19">Bầy</option>
+			<option value="20">Bè</option>
+			<option value="21">Beo</option>
+			<option value="22">Bếp</option>
+			<option value="23">Bia</option>
+			<option value="24">Bích</option>
+			<option value="25">Biển</option>
+			<option value="26">Biệt ly</option>
+			<option value="27">Binh</option>
+			<option value="28">Cá</option>
+			<option value="29">Cà</option>
+			<option value="30">Cãi</option>
+			<option value="31">Cam</option>
+			<option value="32">Cân</option>
+			<option value="33">Cánh</option>
+			<option value="34">Cạo</option>
+			<option value="35">Cào</option>
+			<option value="36">Cắt</option>
+			<option value="37">Câu</option>
+			<option value="38">Cầu</option>
+			<option value="39">Cây</option>
+			<option value="40">Cấy</option>
+			<option value="41">Chải</option>
+			<option value="42">Chăn</option>
+			<option value="43">Chân</option>
+			<option value="44">Chanh</option>
+			<option value="45">Cháy</option>
+			<option value="46">Chạy</option>
+			<option value="47">Chậu</option>
+			<option value="48">Chém</option>
+			<option value="49">Chén</option>
+			<option value="50">Dạ</option>
+			<option value="51">Dao</option>
+			<option value="52">Dâu</option>
+			<option value="53">Dầu</option>
+			<option value="54">Dây</option>
+			<option value="55">Dép</option>
+			<option value="56">Dê</option>
+			<option value="57">Dế</option>
+			<option value="58">Di</option>
+			<option value="59">Dĩa</option>
+			<option value="60">Dơi</option>
+			<option value="61">Dời</option>
+			<option value="62">Du</option>
+			<option value="63">Dù</option>
+			<option value="64">Dưa</option>
+			<option value="65">Đá</option>
+			<option value="66">Đám</option>
+			<option value="67">Đánh</option>
+			<option value="68">Đàn</option>
+			<option value="69">Đào</option>
+			<option value="70">Đấm</option>
+			<option value="71">Đất</option>
+			<option value="72">Đầu</option>
+			<option value="73">Đậu</option>
+			<option value="74">Đẩu</option>
+			<option value="75">Đầy</option>
+			<option value="76">Đe</option>
+			<option value="77">Đè</option>
+			<option value="78">Đẻ</option>
+			<option value="79">Đèn</option>
+			<option value="80">Đẽn</option>
+			<option value="81">Đèo</option>
+			<option value="82">Đẽo</option>
+			<option value="83">Đêm</option>
+			<option value="84">Đền</option>
+			<option value="85">Đi</option>
+			<option value="86">Đỉa</option>
+		</select>
+	</td></tr><tr><td colspan="5" height="10px" ></td></tr>
+<tr><td colspan="5" >
+	<div id="div1"><font size="2" face="Tahoma"><b>ĂN</b><br />
+		<br />
+		Ăn cơm ở nhà là điềm sắp có chuyện vui cho cả gia đình. <br />
+		Ăn cơm ở nơi khác nên đề phòng hao tài tốn của vì có kẻ lừa gạt, tình 
+		cũng như tiền. <br />
+		Ăn đồ béo như bơ sữa v.v... thì sắp có chuyện vui do người phương xa trở 
+		về. <br />
+		Ăn thịt trâu bò tức sắp có điềm lành trong một ngày rất gần. <br />
+		Ăn thịt chó là điềm sắp có kiện tụng. <br />
+		Ăn thịt heo thì sắp sửa bị bệnh. <br />
+		Ăn thịt nấu chín là điềm tốt, ăn thịt sống là điềm xấu, ăn thịt những 
+		con vật chết sình là điềm chia ly trong gia đình. <br />
+		Ăn thịt ngỗng, vợ hay chồng sắp có bệnh. <br />
+		Ăn thịt gà vịt, sắp có lợi vào. <br />
+		Ăn bánh cuốn, chả, chả giò, gỏi cuốn v.v... nên đề phòng tai tiếng hoặc 
+		có sự cãi vã. <br />
+		Ăn dừa đề phòng té ngã. <br />
+		Ăn dưa, cà, mướp đề phòng sự đau ốm bệnh hoạn. <br />
+		Ăn hạt bí và các loại hạt, đậu v.v... nếu có thai tức sắp sinh con quí 
+		tử, nếu không thai sẽ gặp sự may mắn về đường con cái. <br />
+		Ăn ổi, cam, hồng là điềm bất tường. <br />
+		Ăn đào, mận, lý v.v... gia đình sẽ sum hợp, người di xa sẽ trở về đoàn 
+		tụ. <br />
+		Ăn táo, dâu, sắp có tài bất ngờ. <br />
+		Ăn lê, sắp hao tài tốn của vì kiện tụng. <br />
+		Ăn các thứ rau mùi như hành, hẹ, tỏi, củ kiệu v.v... là điềm thật xấu, 
+		mọi việc đều bất thành và có thể bị tai hoạ nặng.</font></div>
+	<div id="div2" style="display:none"><font size="2" face="Tahoma"><b>ÂM NHẠC</b><br />
+		<br />
+		Chiêm bao thấy mình đánh đàn là điềm sắp có bịnh về lá lách. Cần đề 
+		phòng bị té.<br />
+		Nghe tiếng đàn hát mà không trông thấy người là điềm sắp có tang.<br />
+		Đi dự nhạc hội, hay nghe đàn hát là điềm gặp tơ duyên. Hạnh phúc về tình 
+		cũng như hạnh phúc về tiền.</font></div>
+	<div id="div3" style="display:none"><font size="2" face="Tahoma"><b>ẢNH</b><br />
+		<br />
+		Chiêm bao thấy tặng ảnh cho ai, hay người khác tặng ảnh cho mình là điềm 
+		sắp chia ly, hoặc sắp đi xa.<br />
+		Thấy đi chụp ảnh là có người mong nhớ muốn gặp mình.<br />
+		Thấy xé ảnh của người là sắp sửa được hội ngộ với người ấy.<br />
+		Thấy ảnh treo trên vách tự nhiên rớt xuống, là điềm bất tường, đề phòng 
+		tai nạn bất ngờ, nhất là xe cộ.<br />
+		Thấy đốt ảnh là điềm tơ duyên sắp thành tụ.<br />
+		Thấy vẽ ảnh truyền thần cho người yêu là điềm gặp tình địch.</font></div>
+	<div id="div4" style="display:none"><font size="2" face="Tahoma"><b>ÁO</b><br />
+		<br />
+		Chiêm bao thấy áo quần là điềm xấu.<br />
+		Thấy quần áo rách rưới hay vướng vào gai rách tơi tả là điềm sắp mang 
+		lời ăn tiếng nói.<br />
+		Thấy ăn mặc sang trọng là điềm sắp bị ô nhục hoặc bị xỉ vả.<br />
+		Thấy lạnh mặc thêm áo quần vào là điềm tổn thương danh dự.<br />
+		Chiêm bao thấy thay đổi áo quần, hoặc nóng bức cởi phăng quần áo vứt bỏ 
+		đi là điềm sắp chấm dứt một tai hoạ. Nếu có kiện tụng, sẽ thắng đối 
+		phương.<br />
+		Thấy thay đổi áo lót là điềm tái hợp vợ chồng.</font></div>
+	<div id="div5" style="display:none"><font size="2" face="Tahoma"><b>ÁP LỰC</b><br />
+		<br />
+		Chiêm bao thấy bị áp bức hay bị nạt nộ, hăm doạ là điềm sắp được người 
+		nâng đỡ bằng tiền hoặc bằng mọi cách.<br />
+		Thấy mình doạ nạt người khác là điềm phiền não, âu lo.<br />
+		Thấy mình bị áp bức hay bị áp lực đè bẹp là điềm sắp gặp may mắn trên 
+		đường sự nghiệp, tiền công như danh vọng.</font></div>
+	<div id="div6" style="display:none"><font size="2" face="Tahoma"><b>ẤU ĐẢ</b><br />
+		<br />
+		Chiêm bao thấy đánh lộn với người cùng phái là điềm sắp bị thất vọng về 
+		tình duyên, hoặc sắp bị phản bội trong tình trường.<br />
+		Thấy đánh lộn với người khác phái là điềm sắp nhúng tay vào một cuộc 
+		tình duyên vụng trộm.<br />
+		Thấy đang chứng kiến một cuộc ấu đả là điềm được lợi về phần mình.<br />
+		Sẽ có người mang đến cho mình những chuyện bất ngờ về tiền tài.</font></div>
+	<div id="div7" style="display:none"><font size="2" face="Tahoma"><b>BẠC</b><br />
+		<br />
+		Chiêm bao thấy tiền là điềm không tốt.<br />
+		Thấy được nhiều tiền là công việc làm ăn sẽ gặp trở ngại.<br />
+		Thấy gặp tiền, hoặc lượm tiền là bị trộm.<br />
+		Thấy đếm tiền là sắp sửa bị kiện tụng về tiền bạc.<br />
+		Thấy vọc tiền là tai hại, nên đề phòng chết bất ngờ.<br />
+		Thấy cờ bạc là điềm hao tài.<br />
+		Thấy ăn cờ bạc là bị tình phục.<br />
+		Thấy thua cờ bạc là sắp có chuyện gấu ó trong gia đình.<br />
+		Chỉ có một trường hợp đặc biệt là thấy bạc chất thành khối là sắp sửa có 
+		người khác phái giúp đỡ về tiền bạc.</font></div>
+	<div id="div8" style="display:none"><font size="2" face="Tahoma"><b>BÃI</b><br />
+		<br />
+		Chiêm bao thấy đi dạo trên bãi cát là điềm thảnh thơi, sắp có tài lợi 
+		vào.<br />
+		Nhưng thấy chạy trên bãi cát gần như sợ hãi vì nước đuổi theo bên chân, 
+		đó là hung tin.<br />
+		Nếu thấy chuyện trò hay phơi mình trên bãi cỏ là có gấu ó trong gia 
+		đình.</font></div>
+	<div id="div9" style="display:none"><font size="2" face="Tahoma"><b>BÀN</b><br />
+		<br />
+		Chiêm bao thấy đang cúng vái trước bàn thờ là điềm được người bao bọc về 
+		mọi mặt.<br />
+		Nếu đang chứng kiến cảnh đổ nát là điềm chia ly.<br />
+		Thấy đang đứng trước bàn ăn là điềm vui vẻ, sẽ có bạn xa về thăm.<br />
+		Nếu đứng trước bàn viết, là sắp sửa xảy ra việc tranh giành quyền lợi cá 
+		nhân, có thể ra trước pháp lý.<br />
+		Thấy đang cầm bàn ủi hoặc mua bàn ủi là gặp lại người yêu cũ.<br />
+		Thấy ủi quần áo là bị từ chối một cách vô lý.<br />
+		Thấy bàn ủi có lửa là sắp thành đạt trong công việc.</font></div>
+	<div id="div10" style="display:none"><font size="2" face="Tahoma"><b>BẠN</b><br />
+		<br />
+		Chiêm bao thấy họp bạn là sắp sửa gặp điều may mắn.<br />
+		Thấy bạn từ xa về là gặp tình duyên đẹp.<br />
+		Thấy bạn tặng quà hay vật dụng là được của bất ngờ.<br />
+		Thấy bạn mất tích, hoặc chết là sẽ có hung tin.<br />
+		Thấy bạn bị tù là điềm dính líu về pháp luật.<br />
+		Thấy bạn phản mình là điềm hao tài tốn của.<br />
+		Thấy mình lừa bạn là điềm có người khác phái yêu mình tha thiết.</font></div>
+	<div id="div11" style="display:none"><font size="2" face="Tahoma"><b>BÁNH</b><br />
+		<br />
+		Chiêm bao thấy làm bánh hay ăn bánh có nhân là điều sắp có của bất ngờ.<br />
+		Nếu ăn bánh không nhân, sẽ có chuyện buồn, gia đình lủng củng.<br />
+		Thấy liệng bánh đi, nên đề phòng mất cắp hoặc đánh rơi đồ vật.<br />
+		Thấy bánh xe dọc đường bị gãy là thất bại nặng nề.<br />
+		Bánh xe bị kẻ khác đập phá là điềm vợ chồng chia ly.<br />
+		Bánh xe cán trúng mình là có người khác phái để ý đến mình.</font></div>
+	<div id="div12" style="display:none"><font size="2" face="Tahoma"><b>BÁNH</b><br />
+		<br />
+		Chiêm bao thấy làm bánh hay ăn bánh có nhân là điều sắp có của bất ngờ.<br />
+		Nếu ăn bánh không nhân, sẽ có chuyện buồn, gia đình lủng củng.<br />
+		Thấy liệng bánh đi, nên đề phòng mất cắp hoặc đánh rơi đồ vật.<br />
+		Thấy bánh xe dọc đường bị gãy là thất bại nặng nề.<br />
+		Bánh xe bị kẻ khác đập phá là điềm vợ chồng chia ly.<br />
+		Bánh xe cán trúng mình là có người khác phái để ý đến mình.</font></div>
+	<div id="div13" style="display:none"><font size="2" face="Tahoma"><b>BÁO</b><br />
+		<br />
+		Chiêm bao thấy đọc báo là ngược lại với việc mở bao thơ, nghĩa là sắp có 
+		hung tin từ xa về.<br />
+		Thấy xe báo vứt đi là điềm sắp mang tai tiếng.</font></div>
+	<div id="div14" style="display:none"><font size="2" face="Tahoma"><b>BÃO</b><br />
+		<br />
+		Chiêm bao thấy mưa bão mà mình có nơi trú ẩn là sắp giải được tiếng oan.<br />
+		Nếu mưa bão lôi cuốn lấy mình hoặc làm nhà cửa hay nơi mình đang trú ẩn 
+		sụp đổ, thì nên đề phòng cạm bẫy, nhất là cạm bẫy của người khác phái.<br />
+		Mưa bão làm cây cối ngã đè lên mình, nên đề phòng tai nạn có thể vong 
+		mạng.</font></div>
+	<div id="div15" style="display:none"><font size="2" face="Tahoma"><b>BÁT</b><br />
+		<br />
+		Chiêm bao thấy đang sắp xếp chén bát là điềm gia đình yên ổn, có người 
+		cố tình giúp đỡ.<br />
+		Thấy chén bát đổ tung hay bị đập bể là điềm cãi vã trong gia đình nếu 
+		không dằn sẽ đổ vỡ.<br />
+		Thấy xí được chén bát bằng vàng, bạc là điềm tốt về con cái, nếu không 
+		con là gia đình sắp phát đạt.<br />
+		Thấy được chén bằng ngọc là điềm được của bất ngờ, chẳng hạn như trúng 
+		số.<br />
+		Thấy được chén bát bằng sứ, là có người mời ăn uống.<br />
+		Thấy bịt vá chén bát là căn bịnh dây dưa sắp chấm dứt.<br />
+		Thấy chén bát khua là phải đề phòng tai tiếng, mang lời ăn tiếng nói.<br />
+		Nếu thấy chén bát rơi xuống giếng hay xuống sông rạch là điềm sắp có 
+		nguy biến.</font></div>
+	<div id="div16" style="display:none"><font size="2" face="Tahoma"><b>BẮT</b><br />
+		<br />
+		Chiêm bao thấy mình bị người bắt, là gặp người yêu lý tưởng.<br />
+		Nếu người đã có chồng vợ thì có ý ngoại tình.<br />
+		Con gái thấy mình bị bắt là sắp sửa có đôi bạn.<br />
+		Thấy bị bắt trói bằng gông cùm là sắp sửa bị bịnh.<br />
+		Gông cùm tan gãy là sắp qua cơn bịnh.<br />
+		Thấy người mang xiềng xích vào nhà là điềm hung.<br />
+		Thấy bị bắt trói bằng lưới, là cần đề phòng kiện tụng.<br />
+		Thấy bị bắt và chụp lưới lên đầu là có rượu thịt đem đến.<br />
+		Chiêm bao thấy bị bắt trói vào cột là sắp có bệnh nặng.<br />
+		Thấy bị bắt đánh đòn là điềm tang khó.<br />
+		Thấy mình bị bắt đưa lên lầu cao là điềm được thăng quan tiến chức.<br />
+		Thấy bị bắt tra tấn, kềm kẹp là sắp nên danh phận.<br />
+		Bị xử phạt là sắp có tài lợi.</font></div>
+	<div id="div17" style="display:none"><font size="2" face="Tahoma"><b>BẦU</b><br />
+		<br />
+		Chiêm bao thấy trồng bầu có trái là điềm cấn thai, nếu nam phái là sắp 
+		có chuyện ghen tuông trong gia đình.<br />
+		Thấy cắt bầu trên giàn là điềm ngoại tình trong nhà.<br />
+		Thấy ăn bầu nấu canh hay luộc là sắp có hung tin.<br />
+		Thấy mang bầu (có thai) là điềm hạnh phúc.</font></div>
+	<div id="div18" style="display:none"><font size="2" face="Tahoma"><b>BAY</b><br />
+		<br />
+		Chiêm bao thấy tự nhiên bay lên trời là sắp sửa có tài lộc vào nhiều.<br />
+		Thấy bay lên trời mà chới với và ngộp là sắp vỡ nợ.<br />
+		Nên tránh việc đổ bát.<br />
+		Thấy trèo lên nóc nhà rồi bay bổng lên không trung là gặp thời có danh 
+		lợi.</font></div>
+	
+	<div id="div19" style="display:none"><font size="2" face="Tahoma"><b>BẦY</b><br />
+		<br />
+		Chiêm bao thấy bầy thú rừng bao vây mình là điềm sang giàu sắp đến.<br />
+		Bầy thú trông thấy mình bỏ chạy là điềm sa sút.<br />
+		Thấy bầy gà vịt hay chim cò bay vây mình là điềm cãi vã với hàng xóm.</font></div>
+	<div id="div20" style="display:none"><font size="2" face="Tahoma"><b>BÈ</b><br />
+		<br />
+		Chiêm bao thấy mình đóng bè là sắp được việc.<br />
+		Thấy mình ngồi trên bè là sắp có tài lợi.<br />
+		Thấy mình cùng ngồi trên bè với nhiều bạn là sắp có người rủ mình hùn 
+		hạp làm ăn có lợi.<br />
+		Thấy bè rã là sạt nghiệp.</font></div>
+	<div id="div21" style="display:none"><font size="2" face="Tahoma"><b>BEO</b><br />
+		<br />
+		Chiêm bao thấy hùm beo gầm là sắp nên danh vọng.<br />
+		Thấy cởi trên lưng beo là thắng được đối phương, nhất là về việc kiện 
+		tụng.<br />
+		Thấy bị beo vồ là sắp mất của.<br />
+		Bị beo chụp vào chân là thất bại trong công việc.<br />
+		Thấy giết được beo là thù trở thành bạn.<br />
+		Thấy beo chạy vào nhà là tiền vô như nước.</font></div>
+	<div id="div22" style="display:none"><font size="2" face="Tahoma"><b>BẾP</b><br />
+		<br />
+		Chiêm bao thấy nhúm bếp lửa là điềm nên danh phận.<br />
+		Thấy nước từ bếp lửa chảy ra là có hoạnh tài.<br />
+		Nấu nướng trên bếp là sắp có cưới gả.<br />
+		Bếp lạnh lẽo là gia đình xào xáo.<br />
+		Thấy khua chén dĩa trong bếp là có cãi vã với hàng xóm.<br />
+		Thấy rắn bò vào bếp là có khách sang tới nhà.<br />
+		Thấy nồi niêu ngã đổ đầy bếp là điềm tang khó.<br />
+		Thấy một nhà có hai bếp là công việc làm ăn thất bại.<br />
+		Thấy sửa sang bếp là tiền sắp vào nhà.</font></div>
+	<div id="div23" style="display:none"><font size="2" face="Tahoma"><b>BIA</b><br />
+		<br />
+		Chiêm bao thấy bắn bia là điềm bất hạnh.<br />
+		Thấy dựng bia là giẫm chân vào việc tội lỗi.<br />
+		Thấy bia trước mộ là tài lợi sắp tới tay.</font></div>
+	<div id="div24" style="display:none"><font size="2" face="Tahoma"><b>BÍCH</b><br />
+		<br />
+		Thấy lá già là có kẻ tranh chấp với mình trước tụng đình.<br />
+		Thấy lá đầm là có người goá vợ hay goá chồng đeo đuổi quấy rầy mình, đề 
+		phòng gia đình có đổ vỡ vì ghen lầm.<br />
+		Thấy lá bồi là có chuyện lôi thôi sinh việc tội tù.<br />
+		Thấy lá ách là bị trộm hoặc có tang, nếu hai lá ách cùng một lúc là có 
+		thể có tang khó trong vòng 10 ngày.<br />
+		Thấy lá 10 là có chuyện phiền luỵ.<br />
+		Nếu lá 10 kèm lá già và lá ách, đàn ông sẽ bị tội tù vì thâm lạm tiền, 
+		đàn bà sẽ bị bệnh nặng, hoặc gia đình ta rã.<br />
+		Thấy lá 9 là công việc làm ăn thất bại, thấy lá 8 là mất sở làm.<br />
+		Thấy lá 7 là có việc rắc rối, nếu là 7 bích kèm lá 7 cơ thì việc rắc rối 
+		trở thành có lợi.</font></div>
+	<div id="div25" style="display:none"><font size="2" face="Tahoma"><b>BIỂN</b><br />
+		<br />
+		Chiêm bao thấy biển đầy nước là điềm phát tài to.<br />
+		Thấy biển động là bạn bè phản phúc.<br />
+		Thấy biển cạn lồi bãi là làm ăn thua lỗ.</font></div>
+	<div id="div26" style="display:none"><font size="2" face="Tahoma"><b>BIỆT LY</b><br />
+		<br />
+		Chiêm bao thấy biệt ly là điềm gặp duyên lành.<br />
+		Thấy than khóc trong lúc ly biệt là có sự mừng vui hội ngộ.</font></div>
+	<div id="div27" style="display:none"><font size="2" face="Tahoma"><b>BINH</b><br />
+		<br />
+		Chiêm bao thấy binh lính vào nhà là sắp có điềm lành.<br />
+		Thấy binh lính vào thành là tài lợi đến tới tấp.<br />
+		Thấy binh lính bảo vệ mình là có sự vui mừng.<br />
+		Thấy binh lính lên đường là công việc làm ăn còn nhiều trở ngại.<br />
+		Thấy binh lính thua trận là có sự sầu lo.</font></div>
+	<div id="div28" style="display:none"><font size="2" face="Tahoma"><b>CÁ</b><br />
+		<br />
+		Chiêm bao thấy cá lội nhởn nhơ trong nước là điềm tài lợi hạnh thông, 
+		công việc làm ăn phát đạt.<br />
+		Thấy cá nhảy lên bờ là điềm xui xẻo.<br />
+		Thấy cá chết là bị lừa gạt.<br />
+		Thấy cá bay khỏi mặt nước là mọi sự thất bại.<br />
+		Thấy cá trong giếng là sắp thay địa vị.<br />
+		Thấy bắt cá về ăn là tài lợi dồi dào.<br />
+		Thấy vào rừng bắt cá trong đầm, ao là thất bại về sự nghiệp.<br />
+		Thấy bầy cá đẻ non là sắp có người mang của đến cho mình.<br />
+		Thấy cá khô xuống nước là may mắn dồn dập.<br />
+		Thấy cá hoá rồng là sắp thua lỗ trong công việc, hao tài tốn của.<br />
+		Thấy bắt được cá bạc là sắp được của hoạnh tài.<br />
+		Thấy cá trắng tự nhiên hoá đen là điềm bị mất trộm.</font></div>
+	<div id="div29" style="display:none"><font size="2" face="Tahoma"><b>CÀ</b><br />
+		<br />
+		Chiêm bao thấy ăn cà là điềm bất lợi.<br />
+		Thấy cà trên cây tự nhiên héo hoặc rụng xuống đất là sắp bị người áp bức 
+		không giải thoát được.<br />
+		Thấy cà xanh trở thành đỏ là tìm được của bị mất từ lâu.</font></div>
+	<div id="div30" style="display:none"><font size="2" face="Tahoma"><b>CÃI</b><br />
+		<br />
+		Chiêm bao thấy cãi vã với ai là điềm tốt lành, công việc trù tính sắp có 
+		kết quả.<br />
+		Thấy gia đình cãi cọ là vợ chồng đầm ấm.<br />
+		Thấy cãi với người khác phái là gặp người tri kỷ.</font></div>
+	<div id="div31" style="display:none"><font size="2" face="Tahoma"><b>CAM</b><br />
+		<br />
+		Chiêm bao thấy ăn cam là điềm bất tường, sắp có sự nguy hiểm xảy ra.<br />
+		Thấy trèo lên cây cam là sắp có kiện tụng. Thấy cam rụng nhằm mình là 
+		thoát được một tai nạn.</font></div>
+	<div id="div32" style="display:none"><font size="2" face="Tahoma"><b>CÂN</b><br />
+		<br />
+		Chiêm bao thấy cân là điềm ô nhục.<br />
+		Thấy đang cân món hàng là bị người bôi lọ thanh danh mà không giải oan 
+		được.<br />
+		Thấy mình đứng lên cân bàn là đang bị kiện tụng.<br />
+		Thấy đập cân vào đầu người khác là sắp thất kiện.<br />
+		Thấy bị người ta đập cân vào mình là sắp thắng kiện.</font></div>
+	<div id="div33" style="display:none"><font size="2" face="Tahoma"><b>CÁNH</b><br />
+		<br />
+		Chiêm bao thấy tự nhiên mình mọc cánh là điềm không được yên ổn trong 
+		gia đình.<br />
+		Thấy rơi đi một cánh là công việc đang làm sẽ dang dở.<br />
+		Thấy cả hai cánh đều rụng là chấm dứt được một mối lo ngại.<br />
+		Thấy cánh chim rừng đang bay về phía mình là điềm gở, đề phòng tang khó 
+		bất ngờ.<br />
+		Thấy cánh chim nhà (như chim bồ câu, chim sẻ chẳng hạn) là điềm thịnh 
+		vượng.<br />
+		Thấy cánh cửa trong nhà tự nhiên gãy đổ là điềm sắp ly hương.<br />
+		Thấy có người đem đến tặng mình một cánh cửa là điềm lượm được của ở dọc 
+		đường.</font></div>
+	<div id="div34" style="display:none"><font size="2" face="Tahoma"><b>CẠO</b><br />
+		<br />
+		Chiêm bao thấy thợ cạo tóc cho mình là điềm có sự tranh giành về tiền 
+		bạc có thể đi đến kiện tụng.<br />
+		Thấy mình cạo cho người khác là thắng lợi về mình.<br />
+		Thấy cạo râu là sắp sửa có chuyện lo buồn.</font></div>
+	<div id="div35" style="display:none"><font size="2" face="Tahoma"><b>CÀO</b><br />
+		<br />
+		Chiêm bao thấy cào đất là điềm lành, thấy cào cấu với ai là cùng người 
+		đó hùn hạp có lợi.<br />
+		Thấy mèo chó cào là điềm xấu, có thể xảy ra tai biến trong gia đình.<br />
+		Thấy chim từ trên cao bay xuống cào vào mặt là trong nhà sẽ mất một 
+		người.</font></div>
+	
+	<div id="div36" style="display:none"><font size="2" face="Tahoma"><b>CẮT</b><br />
+		<br />
+		Chiêm bao thấy cầm dao cắt cổ một con vật là sắp sửa bị bịnh thình lình.<br />
+		Thấy cắt quần áo là chịu tang khó.<br />
+		Thấy cắt lúa từ đồng ruộng mang về là tài lợi sắp vào.</font></div>
+	<div id="div37" style="display:none"><font size="2" face="Tahoma"><b>CÂU</b><br />
+		<br />
+		Chiêm bao thấy đang câu cá là điềm phát đạt.<br />
+		Thấy câu cá trên ruộng khô cạn là thất vọng về mọi mặt.</font></div>
+	<div id="div38" style="display:none"><font size="2" face="Tahoma"><b>CẦU</b><br />
+		<br />
+		Chiêm bao thấy sửa sang cầu cống là giải quyết được việc khó khăn.<br />
+		Thấy đi qua cầu là có kiện tụng, cầu gãy là thất kiện.<br />
+		Thấy mình ngồi trên cầu là tài lộc sắp vô nhà.<br />
+		Thấy dắt tay lên cầu là vợ có thai, hoàn thành cầu mới là tiền bạc vô 
+		như nước.<br />
+		Thấy đang đi trên cầu có tiếng gọi mình là sẽ thắng kiện.</font></div>
+	<div id="div39" style="display:none"><font size="2" face="Tahoma"><b>CÂY</b><br />
+		<br />
+		Chiêm bao thấy mình lủi vào lùm cây là điềm có công việc làm ăn mới.<br />
+		Thấy ngồi dưới cội cây ngắm nghía cảnh vật là sắp đi du lịch nơi xa.<br />
+		Thấy trèo lên cây bẻ trái, trái xanh là tài, trái chín là lộc. Nếu ăn 
+		trái trên cây là có của bất ngờ.<br />
+		Thấy lạc vào một rừng cây um tùm không lối ra là tiền của đầy nhà.<br />
+		Thấy đi dạo trong rừng cây là có việc mừng vui đem đến có lợi.<br />
+		Thấy cây tự nhiên phát cháy là phát làm giàu.<br />
+		Thấy mình đốn cây là có món lợi bất ngờ.</font></div>
+	<div id="div40" style="display:none"><font size="2" face="Tahoma"><b>CẤY</b><br />
+		<br />
+		Chiêm bao thấy mình đi cấy dưới ruộng nước mênh mông là điềm phát đạt, 
+		tài lợi đến tới tấp.<br />
+		Thấy mình cấy dưới đám ruộng sình lầy mà không thấy nước là công việc 
+		đang trù tính, gặp nhiều trở ngại nhưng vẫn vượt qua trong thời gian 
+		ngắn sau cùng là thành tựu theo ý muốn của mình.<br />
+		Thấy mình cỡi trâu giẫm lên công ruộng đang cấy là vô tình mình làm một 
+		việc đê hèn vì trót nghe lời xúi giục của kẻ ác ý làm mình phải chịu hậu 
+		quả.<br />
+		Thấy mình cấy vòng quanh theo nhà của người khác là được người tận tình 
+		giúp đỡ, bao bọc cho mình làm ăn đến thành đạt.<br />
+		Thấy mình cùng cấy lúa với một đám đông, toàn là nam phái là có bao 
+		nhiêu người bu quanh ăn bám mình mà còn chực làm hại mình.<br />
+		Thấy mình đang cấy lúa với một đám toàn nữ phái và hẹn hò đối đáp rất t 
+		vui vẻ là sắp sửa có đám cưới trong nhà.<br />
+		Thấy mình cấy mạ rồi nhổ lên vứt đi nơi khác là bị kẻ mình nuôi trong 
+		nhà cướp duyên của mình.<br />
+		Thấy mình cấy lúa trên mặt nước mà không thấy ruộng là điềm mất của, đề 
+		phòng bị trộm to.<br />
+		Thấy mình cấy bắp dưới ruộng nước là hao tài một cách vô lối, nhưng 
+		không tránh được, dù mình có đoán biết việc làm của mình là bất lợi.<br />
+		Thấy mình cấy bắp trên ruộng khô vừa gặt hết lúa là điềm tốt, tài lộc sẽ 
+		vào nhà dễ dàng như có người đem tới cho mình. Nếu cấy trên ruộng khô 
+		nứt nẻ hết là công việc ngưng trệ, hoặc việc đang trù tính luôn luôn bị 
+		ngăn cản.</font></div>
+	<div id="div41" style="display:none"><font size="2" face="Tahoma"><b>CHẢI</b><br />
+		<br />
+		Chiêm bao thấy chải đầu cho một người nào là được người ấy để ý.<br />
+		Thấy vợ chồng chải đầu cho nhau là vợ sắp cấn thai.<br />
+		Thấy chải lông cho loài vật như chó, ngựa v.v... là điềm rất vượng về 
+		tài.</font></div>
+	<div id="div42" style="display:none"><font size="2" face="Tahoma"><b>CHĂN</b><br />
+		<br />
+		Chiêm bao thấy trùm chăn lên người là sắp sửa có người bao bọc.<br />
+		Thấy chăn có rận rệp là có kẻ gian đang rình mò, đề phòng mất cấp.<br />
+		Thấy vứt chăn đi để loã lồ thân thể là sắp có hành động ám muội, như tà 
+		dâm chẳng hạn.</font></div>
+	<div id="div43" style="display:none"><font size="2" face="Tahoma"><b>CHÂN</b><br />
+		<br />
+		Chiêm bao thấy bị thương ở chân là điềm buồn bực.<br />
+		Thấy chân khoẻ mạnh là sắp làm được một việc gì đem nhiều nguồn vui cho 
+		gia đình.<br />
+		Thấy chân gẫy là sắp sửa có việc ly tán. Thấy chân bại là sẽ đến tụng 
+		đình.<br />
+		Thấy rửa chân là bịnh lâu ngày sẽ dứt. Thấy chân ra máu là sắp phát tài.<br />
+		Thấy chân trời u ám là công việc làm ăn còn bị nhiều ngưng trệ.<br />
+		Thấy mặt trời nhô lên ở chân trời là sắp gặp may mắn.<br />
+		Thấy mưa ở chân trời là điềm của tiền vô như nước.</font></div>
+	<div id="div44" style="display:none"><font size="2" face="Tahoma"><b>CHANH</b><br />
+		<br />
+		Chanh, khế, bưởi, bông là những trái tượng trưng của dục tình, nên chiêm 
+		bao thấy ngậm chanh, ăn chanh là điềm có sự sanh tâm trong lòng.<br />
+		Thấy trèo trên cây chanh hái trái là đã lỡ bước sang ngang, thầm lén làm 
+		việc vụng dại.<br />
+		Thấy bóp nát trái chanh là sự lén lút bị bể bạc.</font></div>
+	<div id="div45" style="display:none"><font size="2" face="Tahoma"><b>CHÁY</b><br />
+		<br />
+		Chiêm bao thấy cháy là ít nhiều ảnh hưởng đến cuộc đời tình ái của chính 
+		mình đang thực hiện, hay trong thời kỳ nung nấu.<br />
+		Thấy đám cháy trước mặt mình là cuộc tình duyên sắp bị ảnh hưởng, hoặc 
+		có kẻ rắp tâm ngăn cản.<br />
+		Thấy cháy nhà mà mình thoát ra được là thoát được một cạm bẫy vì tình.<br />
+		Thấy cháy nhà mình dập tắt được bằng nước. Nếu nước có vòi là cuộc tình 
+		duyên sắp thành tựu, nếu nước loan rộng áp đảo được lửa là tình duyên 
+		dằm ấm. Nếu thấy nước từ sông rạch dâng lên, tràn vào đám cháy là hạnh 
+		phúc đến bên thềm.</font></div>
+	<div id="div46" style="display:none"><font size="2" face="Tahoma"><b>CHẠY</b><br />
+		<br />
+		Chiêm bao thấy chạy bộ hoặc rượt đuổi theo một kẻ nào, đó là điềm giải 
+		thoát được một mối ưu phiền.<br />
+		Thấy kẻ đuổi mình chạy trối chết là buồn bực sắp tới.<br />
+		Thấy chạy đua với đám đông là tài lợi sắp vào.</font></div>
+	<div id="div47" style="display:none"><font size="2" face="Tahoma"><b>CHẬU</b><br />
+		<br />
+		Chiêm bao thấy mình bưng chậu đầy nước là điềm sắp thành công trong công 
+		việc.<br />
+		Thấy bưng chậu cho người bạn rửa mặt là sắp có bà vợ thứ nhì đầy đủ 
+		thinh sắc.<br />
+		Thấy mình đang úp chậu này lên chậu kia là gia đình từ lâu ly tán đã có 
+		cơ sum hợp vui vẻ.<br />
+		Thấy có người bán chậu cho mình hay đem chậu cho mình là làm ăn dễ dàng. 
+		Nhưng thấy chậu mất đáy là sạt nghiệp bất ngờ.</font></div>
+	<div id="div48" style="display:none"><font size="2" face="Tahoma"><b>CHÉM</b><br />
+		<br />
+		Chiêm bao thấy chém lộn với ai là điểm sắp gây tai nạn, nên đề phòng 
+		việc xe cộ.<br />
+		Thấy bị người khác chém mình mà không có máu là bịnh lâu năm sắp gặp 
+		thuốc, có máu nếu trong nhà có người bịnh là điềm chẳng lành.<br />
+		Thấy mình bị chém lìa một tay hay một chân là có chuyện nguy hiểm trong 
+		công ăn việc làm.</font></div>
+	<div id="div49" style="display:none"><font size="2" face="Tahoma"><b>CHÉN</b><br />
+		<br />
+		Chiêm bao thấy đang sắp xếp chén bát là điềm gia đình yên ổn, có người 
+		cố tình giúp đỡ.<br />
+		Thấy chén bát đổ tung hay bị đập bể là điềm cãi vã trong gia đình nếu 
+		không dằn sẽ đổ vỡ.<br />
+		Thấy xí được chén bát bằng vàng, bạc là điềm tốt về con cái, nếu không 
+		con là gia đình sắp phát đạt.<br />
+		Thấy được chén bằng ngọc là điềm được của bất ngờ, chẳng hạn như trúng 
+		số.<br />
+		Thấy được chén bát bằng sứ, là có người mời ăn uống.<br />
+		Thấy bịt vá chén bát là căn bịnh dây dưa sắp chấm dứt. Thấy chén bát 
+		khua là phải đề phòng tai tiếng, mang lời ăn tiếng nói. Nếu thấy chén 
+		bát rơi xuống giếng hay xuống sông rạch là điềm sắp có nguy biến.</font></div>
+	<div id="div50" style="display:none"><font size="2" face="Tahoma"><b>DẠ</b><br />
+		<br />
+		Dạ là về đêm tức là có liên quan đến vấn đề sinh lý, ái tình. Chiêm bao 
+		nghe mùi dạ lý là sắp gặp cuộc tình duyên thơ mộng nhưng không bền.<br />
+		Thấy hoa dạ lý trổ bông là hứa hẹn cuộc hôn nhân đẹp.<br />
+		Thấy hoa dạ lý rụng là hôn nhân không thành tựu.<br />
+		Thấy hoa dạ hương cũng cùng ý nghĩa với hoa dạ lý.</font></div>
+	<div id="div51" style="display:none"><font size="2" face="Tahoma"><b>DAO</b><br />
+		<br />
+		Chiêm bao thấy cầm dao nhỏ là có chuyện rầy rà trong gia đình.<br />
+		Thấy cầm dao nhỏ đâm ai là sắp có kiện tụng.<br />
+		Thấy người đâm mình là thoát một cuộc bố thiết về tinh thần.<br />
+		Thấy cầm một con dao to là điềm bất lợi.<br />
+		Thấy nhiều dao to là có cuộc ấu đả, nên dằn nén kẻo có thể xảy ra án 
+		mạng.<br />
+		Thấy cầm dao mác là sẽ bị thương, hoặc có kẻ rình rập ám hại.</font></div>
+	<div id="div52" style="display:none"><font size="2" face="Tahoma"><b>DÂU</b><br />
+		<br />
+		Chiêm bao thấy đang bẻ lá dâu là công cuộc làm ăn được thuận lợi.<br />
+		Thấy ngồi trên cây dâu cành lá sum sê là ái tình vụng trộm.<br />
+		Thấy cây dâu khô lá là cuộc vụng trộm bị bể bạc.<br />
+		Thấy nô đùa với một cô gái trên cành dâu là sắp cưới được người vợ đảm 
+		đang.</font></div>
+	
+	<div id="div53" style="display:none"><font size="2" face="Tahoma"><b>DẦU</b><br />
+		<br />
+		Chiêm bao thấy làm đổ dầu chảy khắp nơi là lợi sắp vào.<br />
+		Thấy mình uống dầu là hao tài tốn của.<br />
+		Thấy mua dầu là có xích mích giữa vợ chồng.<br />
+		Thấy tạt dầu vào mặt một người khác là chuyện bực mình sắp được giải 
+		quyết.</font></div>
+	<div id="div54" style="display:none"><font size="2" face="Tahoma"><b>DÂY</b><br />
+		<br />
+		Chiêm bao thấy mình chặt dây nhợ là bệnh sắp lành.<br />
+		Thấy dây nhợ quấn mình là rắc rối trong công việc.<br />
+		Thấy mình dùng dây trói một người khác là mọi việc được vừa ý.</font></div>
+	<div id="div55" style="display:none"><font size="2" face="Tahoma"><b>DÉP</b><br />
+		<br />
+		Chiêm bao thấy có người mang dép đến tặng mình là điềm được người giúp 
+		công ăn việc làm.<br />
+		Thấy cổi dép khô là thoát một cơn nguy, cổi dép ướt là sắp thất vọng 
+		trong việc mong ước.<br />
+		Thấy vứt bỏ một đôi dép là để lỡ một dịp may.</font></div>
+	<div id="div56" style="display:none"><font size="2" face="Tahoma"><b>DÊ</b><br />
+		<br />
+		Chiêm bao thấy dê xồm hay có người dẫn đến cho mình con dê xồm là điềm 
+		sắp được hưởng gia tài to.<br />
+		Thấy dê cái chạy a vào mình là hạnh phúc đang ve vãn quanh mình.<br />
+		Thấy mua dê cái là được hoạnh tài.<br />
+		Thấy làm thịt dê cái hoặc đốt dê cái là có chuyện khóc đến nơi.<br />
+		Thấy dê cái màu trắng là gặp cuộc tình duyên thấm thía. Thấy dê đen là 
+		tình duyên thầm lén.<br />
+		Thấy dê cái đi lang thang một mình là tình duyên sắp gãy đổ.<br />
+		Thấy dê con là mừng vui sắp đến.<br />
+		Thấy rờ rẫm dê con là hy vọng hão huyền, khó thành đạt.<br />
+		Thấy dẫn dê con đi ăn là có việc buồn phiền.<br />
+		Thấy dê con nằm ngủ là chấm dứt được nỗi buồn không đâu.<br />
+		Thấy vác dê con trên vai là có chuyện hài lòng.</font></div>
+	<div id="div57" style="display:none"><font size="2" face="Tahoma"><b>DẾ</b><br />
+		<br />
+		Chiêm bao thấy bắt dế là gia đình yên vui.<br />
+		Thấy dế đáp vào mình là hạnh phúc gần kề.<br />
+		Thấy dế chui xuống hang là tiền bạc vào tủ.<br />
+		Thấy dế đá lộn là kẻ muốn ám hại mình đã bị kẻ khác hạ.</font></div>
+	<div id="div58" style="display:none"><font size="2" face="Tahoma"><b>DI</b><br />
+		<br />
+		Chiêm bao thấy mình làm di chúc là điềm tang khó.<br />
+		Thấy có người làm di chúc cho mình là bịnh ngặt nghèo sắp khỏi.<br />
+		Thấy di chúc bị trộm hay bị đốt cháy là tiền bạc sắp vào.</font></div>
+	<div id="div59" style="display:none"><font size="2" face="Tahoma"><b>DĨA</b><br />
+		<br />
+		Chiêm bao thấy rửa dĩa là phủi sạch một công trình.<br />
+		Thấy ăn cơm bằng dĩa là thất bại muốn điên.<br />
+		Thấy đập bể đĩa là gia đình tạm yên.</font></div>
+	<div id="div60" style="display:none"><font size="2" face="Tahoma"><b>DƠI</b><br />
+		<br />
+		Chiêm bao thấy dơi bay là điềm bị hạ lúc ban đêm.<br />
+		Thấy giết một con dơi là buồn bực, xúc động.<br />
+		Thấy ăn thịt dơi là qua một cơn nguy khốn.</font></div>
+	<div id="div61" style="display:none"><font size="2" face="Tahoma"><b>DỜI</b><br />
+		<br />
+		Chiêm bao thấy dời bò vào đồ ăn là tiền của vào nhà.<br />
+		Thấy ăn nhằm một con dời là được của bất ngờ, thử mua vé số.</font></div>
+	<div id="div62" style="display:none"><font size="2" face="Tahoma"><b>DU</b><br />
+		<br />
+		Chiêm bao thấy mình đi du lịch với nhiều người là có nhiều kẻ đang âm 
+		mưu hạ mình.<br />
+		Thấy đi du lịch một mình là bơ vơ.<br />
+		Thấy đi du lịch với gia đình là có việc không hay cho vợ hay chồng.</font></div>
+	<div id="div63" style="display:none"><font size="2" face="Tahoma"><b>DÙ</b><br />
+		<br />
+		Chiêm bao thấy đi dù là chuyện mơ ước từ lâu sắp thành tựu.<br />
+		Thấy che dù cho một người là được bao bọc làm ăn. Thấy người che dù cho 
+		mình là có sự phản trắc.</font></div>
+	<div id="div64" style="display:none"><font size="2" face="Tahoma"><b>DƯA</b><br />
+		<br />
+		Chiêm bao thấy ăn dưa là điềm bị lừa.<br />
+		Thấy có người mang dưa đến tặng mình là sắp bị hao tài.<br />
+		Thấy mình gánh dưa đi bán là tìm được việc làm vừa ý.</font></div>
+	<div id="div65" style="display:none"><font size="2" face="Tahoma"><b>ĐÁ</b><br />
+		<br />
+		Chiêm bao thấy mình khuân đá là có kẻ đổi ơn thành oán.<br />
+		Thấy đá rơi nhằm đầu là khám phá được âm mưu hãm hại mình.<br />
+		Thấy ném đá trên đất khô là hao tài mới tiêu tan tai nạn.<br />
+		Thấy ném đá xuống nước ao, hồ là công việc làm ăn bắt đầu thịnh vượng.</font></div>
+	<div id="div66" style="display:none"><font size="2" face="Tahoma"><b>ĐÁM</b><br />
+		<br />
+		Chiêm bao thấy mình lạc lõng vào giữa đám đông là bị người có thế lực ép 
+		buộc mình vào một công việc gì. Nếu thoát được khỏi đám đông ấy là phiền 
+		luỵ đến mình, nếu bị đám đông hạ là mình tự cứu một cách yên lành.<br />
+		Chiêm bao thấy đám tang là điềm tài lợi dồi dào.<br />
+		Thấy đám tang có áo quan màu đỏ là có hoạnh tài.<br />
+		Thấy mình mặc tang phục là trong nhà có cuộc hôn nhân.<br />
+		Thấy đám tang có kèn trống linh đình là có kẻ gây rối rắm cho mình.<br />
+		Thấy mình khiêng quan tài trong đám tang là có người đem lợi đến cho 
+		mình.<br />
+		Thấy mình là người chết trong đám tang là việc làm ăn sắp phát đạt.</font></div>
+	<div id="div67" style="display:none"><font size="2" face="Tahoma"><b>ĐÁNH</b><br />
+		<br />
+		Chiêm bao thấy mình bị người đánh là tài lợi sắp vào.<br />
+		Thấy mình đánh vợ, đánh chồng, hay đánh anh em trong nhà là có phản bội.<br />
+		Thấy bị vợ đánh hay bị chồng đánh là điềm đáng ngại.<br />
+		Thấy trong nhà đánh nhau là điềm phân tán.<br />
+		Thấy đàn bà hay phụ nữ đánh nhau là điềm bịnh hoạn.<br />
+		Thấy anh em đánh nhau là lợi lộc sắp vào.<br />
+		Chiêm bao thấy đánh bạc là điềm hao tài.</font></div>
+	<div id="div68" style="display:none"><font size="2" face="Tahoma"><b>ĐÀN</b><br />
+		<br />
+		Chiêm bao thấy mình học đàn, thấy mình đang đánh đàn là sẽ gặp duyên 
+		lành.<br />
+		Thấy người khác đánh đàn là tình duyên thành tựu. Thấy đàn chùn dây là 
+		duyên nợ đổ vỡ.<br />
+		Thấy đang đánh đàn dây đứt lìa là rời rã vợ chồng. Nghe tiếng đàn mà 
+		không thấy người là được an ủi. Chiêm bao trông thấy một người đàn bà là 
+		sắp có bịnh hoặc gặp tai nạn có thể trở thành tàn tật.<br />
+		Thấy gặp một người đàn bà đẹp là may mắn mọi mặt. Gặp người đàn bà xấu 
+		xí là sắp buồn bực. Gặp người đàn bà có mái tóc dễ yêu là lợi vào, lộc 
+		đến. Gặp người đàn bà có mái tóc mềm dịu là có chuyện vui gần bên. Gặp 
+		người đàn bà có mái tóc hoe là gặp chuyện não nề. Gặp người đàn bà chửa 
+		là có sự vui vẻ trong gia đình. Gặp nhiều người đàn bà cãi vã là bị 
+		người sỉ nhục. Hôn trán đàn bà được người giúp đỡ. Hôn lên má người đàn 
+		bà lạ có chuyện mừng. Trò chuyện say sưa với đàn bà là dục vọng thái quá. 
+		Từ chối giao thiệp với đàn bà là buồn thảm khó tránh. Chiêm bao thấy 
+		người đàn ông lội qua rạch là có tin mừng. Người đàn ông ấy chết chìm là 
+		buồn bực sẽ đến. Gặp đàn ông tóc hoe là được bao bọc. Gặp người đàn ông 
+		to lớn cần đề phòng cạm bẫy. Gặp người đàn ông bé nhỏ là tương lai giàu 
+		có, gặp người đàn ông giàu là sắp mất của. Gặp đàn ông làm lụng vất vả 
+		là thịnh vượng.<br />
+		Thấy đàn ông ngủ là có gấu ó với xóm giềng. Thấy một đàn ông để tang là 
+		bịnh hoạn sẽ đến.</font></div>
+	<div id="div69" style="display:none"><font size="2" face="Tahoma"><b>ĐÀO</b><br />
+		<br />
+		Chiêm bao thấy ăn trái đào là khao khát một cuộc tình duyên.<br />
+		Thấy bóp nát trái đào là tình duyên thành tựu. Thấy ngửi hoa đào là thất 
+		bại trong tình trường.<br />
+		Thấy mình đào đất là túi cạn tiền hết.</font></div>
+	
+	<div id="div70" style="display:none"><font size="2" face="Tahoma"><b>ĐẤM</b><br />
+		<br />
+		Chiêm bao thấy đắm thuyền bè làm ăn thất bại.<br />
+		Thấy thoát một cuộc chết đắm là thoát được tai nạn nguy hiểm.</font></div>
+	<div id="div71" style="display:none"><font size="2" face="Tahoma"><b>ĐẤT</b><br />
+		<br />
+		Chiêm bao thấy đất có nhiều hột và trái là điềm thịnh vượng trong gia 
+		đình.<br />
+		Thấy mình hôn đất là bị hạ nhục.<br />
+		Thấy mua một cục đất là nghèo nàn sắp đến hoặc chết chóc bất ngờ.</font></div>
+	<div id="div72" style="display:none"><font size="2" face="Tahoma"><b>ĐẦU</b><br />
+		<br />
+		Chiêm bao thấy đầu lâu tái mét là sắp có bịnh hoặc có chuyện lo sợ.<br />
+		Thấy mình bị chặt mất đầu là hạnh phúc tới nơi.<br />
+		Thấy mình chặt đầu người khác là có chuyện thù hằn.<br />
+		Thấy tự nhiên đầu mình hoá to là lợi lộc vào như nước.<br />
+		Thấy đầu đầy tóc bạc là danh vọng sáng chói.<br />
+		Thấy tóc đen ngòm là thay đổi tính tình gây ác cảm với người khác.<br />
+		Thấy đầu sói tóc là bị hàm oan.<br />
+		Thấy đầu nhỏ lại là mờ mắt trước mối lợi nhỏ làm hạ thấp phẩm giá mình.<br />
+		Thấy đầu cao lên là có thêm địa vị.<br />
+		Thấy hai tay ôm đầu là có chuyện buồn bực làm quẫn trí.<br />
+		Thấy ôm đầu người chết là có điều lo ngại. Ôm một cái đầu đẹp là vui vẻ 
+		tới tấp. Ôm một cái đầu xấu xí là buồn bã không nguôi.<br />
+		Thấy tự nhiên mình mất đầu là người bị sỉ nhục, âu lo không ngớt.</font></div>
+	<div id="div73" style="display:none"><font size="2" face="Tahoma"><b>ĐẬU</b><br />
+		<br />
+		Chiêm bao thấy trồng đậu là việc toan tính sắp thành.<br />
+		Thấy giẫm lên đám đậu hay nhiều hột đậu là có kẻ nói xấu mình.<br />
+		Thấy rang đậu hay nấu đậu là công việc bị cản trở. Đi thi mà thấy ăn đậu 
+		là rớt.</font></div>
+	<div id="div74" style="display:none"><font size="2" face="Tahoma"><b>ĐẨU</b><br />
+		<br />
+		Chiêm bao thấy ngồi trên ghế đẩu là có niềm vui nho nhỏ.<br />
+		Thấy ngồi trên đẩu có bánh xe lăn là có kẻ tiểu tâm mưu hại.<br />
+		Thấy ngồi trên đẩu sang trọng cẩn ốc xà cừ là được của bất ngờ.<br />
+		Thấy ngồi trên đẩu trong nhà thờ là điềm chết chóc.</font></div>
+	<div id="div75" style="display:none"><font size="2" face="Tahoma"><b>ĐẦY</b><br />
+		<br />
+		Chiêm bao thấy người bị đầy là có kẻ phỉ báng hoặc có điều tủi nhục.<br />
+		Thấy mình bị đầy là tài lợi tới nơi.</font></div>
+	<div id="div76" style="display:none"><font size="2" face="Tahoma"><b>ĐE</b><br />
+		<br />
+		Chiêm bao thấy mình đập lên đe là thắng lợi trong công việc.<br />
+		Thấy đe ngã trên chân mình là công việc thất bại vì sự do dự của mình.</font></div>
+	<div id="div77" style="display:none"><font size="2" face="Tahoma"><b>ĐÈ</b><br />
+		<br />
+		Chiêm bao thấy mình bị ma quỷ đè là bịnh hoạn không tránh được.<br />
+		Thấy mình bị đè dưới đống gạch đá hay cây cối là có chuyện khổ tâm không 
+		giải quyết được.</font></div>
+	<div id="div78" style="display:none"><font size="2" face="Tahoma"><b>ĐẺ</b><br />
+		<br />
+		Chiêm bao thấy người đàn bà đẻ là vượng tài.<br />
+		Thấy mình đỡ đẻ là hạnh phúc tới.<br />
+		Thấy người đỡ đẻ cho người khác là có người bao bọc giúp đỡ mình làm ăn.</font></div>
+	<div id="div79" style="display:none"><font size="2" face="Tahoma"><b>ĐÈN</b><br />
+		<br />
+		Chiêm bao thấy đèn là được thêm danh vọng.<br />
+		Thấy đèn sáng tỏ là lợi vào. Đèn bị gió tắt là có kẻ toan ám hại.<br />
+		Thấy mình thổi tắt đèn là thoát ách.</font></div>
+	<div id="div80" style="display:none"><font size="2" face="Tahoma"><b>ĐẼN</b><br />
+		<br />
+		Chiêm bao thấy bị đẽn cắn là gặp nguy hiểm khó lường.<br />
+		Thấy mình giết được đẽn là kẻ toan ám hại mình đã bị hại.</font></div>
+	<div id="div81" style="display:none"><font size="2" face="Tahoma"><b>ĐÈO</b><br />
+		<br />
+		Chiêm bao thấy mình lên đèo cao là bị bắt, hoặc bị án tù.<br />
+		Thấy mình lên đèo thấp như đồi nên đề phòng cạm bẫy, giảm bớt việc đi 
+		dạo chốn xa, chẳng hạn như đi nghỉ mát.</font></div>
+	<div id="div82" style="display:none"><font size="2" face="Tahoma"><b>ĐẼO</b><br />
+		<br />
+		Chiêm bao thấy mình đẽo cây là có cạm bẫy.<br />
+		Thấy người đẽo cây là mình bị mắc lừa đàn bà.</font></div>
+	<div id="div83" style="display:none"><font size="2" face="Tahoma"><b>ĐÊM</b><br />
+		<br />
+		Chiêm bao thấy đêm thanh lặng là gia đình hạnh phúc.<br />
+		Thấy đêm nhiều sao là có cưới gả tốt đẹp.<br />
+		Thấy đêm u tịch là buồn bực không yên.<br />
+		Thấy đêm dông gió là có kẻ âm mưu hãm hại mình.</font></div>
+	<div id="div84" style="display:none"><font size="2" face="Tahoma"><b>ĐỀN</b><br />
+		<br />
+		Chùa, Đình, Miếu, Nhà thờ là những nơi tôn nghiêm. Vì vậy khi chiêm bao 
+		thấy vào các nơi ấy hoặc chiêm bái, hoặc thăm viếng, đều là điềm lành cả.<br />
+		Thấy mình vào chùa vái lạy là sắp gặp tình duyên bền chặt.<br />
+		Thấy vào chùa nghe kinh, là mọi việc hạnh thông.<br />
+		Thấy vào chùa nói chuyện bậy bạ, hoặc tinh nghịch là sắp lâm nguy.<br />
+		Thấy dựng nên một kiểng chùa là có điềm lành đem đến.</font></div>	
+	<div id="div85" style="display:none"><font size="2" face="Tahoma"><b>ĐI</b><br />
+		<br />
+		Chiêm bao thấy mình đi mau là công việc làm ăn được trôi chảy.<br />
+		Thấy đi thụt lùi là hao tài.<br />
+		Thấy đi chậm là lợi vào chắc chắn.<br />
+		Thấy mình đi bằng một chân gỗ là bịnh dai dẳng tốn kém.<br />
+		Thấy đi vào một nơi ô uế là có tai nạn.<br />
+		Thấy đi vào một chốn lạ chưa bao giờ bước chân đến là thành công rực rỡ, 
+		tiền cũng như danh vọng vào.</font></div>
+	<div id="div86" style="display:none"><font size="2" face="Tahoma"><b>ĐỈA</b><br />
+
+		Chiêm bao thấy đỉa đầy ao là có kẻ phỉnh nịnh để đoạt của mình.
+		Thấy đỉa đeo đầy chân là thoát ách.	
+		</font></div>
+</td></tr>
+</tbody></table>
+<script>
+function xem()
+{
+	var gt=document.getElementById('mausac').value;
+	for(var sid=1;sid<=86;sid++) document.getElementById('div'+sid).style.display="none";
+	document.getElementById('div'+gt).style.display="";
+
+}
+</script></div>
+</body>
+</html>

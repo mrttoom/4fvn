@@ -1,0 +1,214 @@
+﻿<script>
+document.title=tenweb + " - Bói Ngày Sinh";</script>
+<SCRIPT>     
+function examine(d,m,y) {  
+  var nbr = (d + m + y) % 9;
+  	 for(i=1; i<=9; i++)    document.getElementById("hsdesc"+i).style.display="none";
+  var nbr =nbr+1   
+  document.getElementById("hsdesc"+nbr).style.display="";
+}     
+</SCRIPT>
+<table cellspacing="0" style="width:100%;"> <tbody>                         
+<tr><td  align="center" class="tieude"><b>Bói Ngày Sinh</b></td></tr>
+	<tr><td valign="top">
+	<p align="center"><b>Ngày sinh của bạn có liên quan gì đến cá tính của bạn hay không ? <BR/>Chúng ta hãy thử tìm hiểu con số ứng với ngày sinh của bạn :</b>   
+	 <div align="center"> 
+	  <TABLE cellSpacing=0><TBODY>
+	  <TR><TH class=text width="33%"><font face="Verdana" size="2" color="#FF0000">Ngày</font></TH>
+	    <TH class=text width="33%"><font face="Verdana" size="2" color="#FF0000">Tháng</font></TH>
+	    <TH class=text width="34%"><font face="Verdana" size="2" color="#FF0000">Năm</font></TH></TR>
+	  <TR>
+	    <TD width="33%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SELECT style="" size=1 id="day"> 
+	        <OPTION value=1 selected>1</OPTION> <SCRIPT>  for(i=2; i<=31; i++)  document.writeln('<option value="' + i + '">'+i+'</option>'); </SCRIPT></SELECT></TD>   
+	    <TD width="33%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SELECT style="" size=1 id="month"> 
+	    	<OPTION value=1 selected>1</OPTION> <SCRIPT>  for(i=2; i<=12; i++)  document.writeln('<option value="' + i + '">'+i+'</option>'); </SCRIPT></SELECT> </TD>   
+	    <TD width="34%">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SELECT style="" size=1 id="year"> 
+		    <OPTION value=1920 selected>1920</OPTION><SCRIPT>  for(i=1921; i<=2009; i++)  document.writeln('<option value="' + i + '">'+i+'</option>'); </SCRIPT></SELECT></TD>
+	  </TR></TBODY></TABLE>
+	  	</div></p>
+  </td></tr>
+  <tr><td align="center" style="width: 100%"><button onclick="examine(document.getElementById('day').value/1, document.getElementById('month').value/1, document.getElementById('year').value/1);" name=examine>Xem diễn giải</button> &nbsp; </td></tr>
+  <tr><td style="width: 100%"><div >
+  <SPAN id=hsdesc1 style="DISPLAY: none" class="div1">Số 1 tượng 
+			trưng cho sự độc tôn duy nhất, nó còn biểu tượng cho sự hoàn hảo, 
+			chất lượng thượng hạng. Tất cả những con số khác dù nhân chia hay 
+			thêm bớt với số 1 cũng có cùng một đáp số là chính nó. Về biểu 
+			tượng, một con người nào đó được nhìn nhận qua chính con người có 
+			đầy đủ phẩm chất hàng đầu của số 1 sẽ hiện rõ chính xác mọi năng lực 
+			mà con số khác không hoặc chưa nhận ra.<BR/><BR/>Bạn là người năng 
+			động, có tài và có khiếu chỉ huy, tự tin nhưng hơi ích kỷ. Bạn hơi 
+			ngang bướng và lười biếng khi phải làm những việc mà bạn không 
+			thích. Tuy nhiên với những công việc mà bạn thích bạn sẽ hoàn thành 
+			một cách xuất sắc. Bạn luôn gây ấn tượng cho người khác bởi cách ăn 
+			mặc của mình. Bạn thích hợp với những hoạt động trong trường và các 
+			môn thể thao, và những hoạt động này giúp bạn hoàn thiện tính cách 
+			của mình.<BR/><BR/>Về tình cảm: thường kiêu hãnh nhưng bên trong rất 
+			độ lượng. Bạn đánh giá cao thái độ mềm mỏng, lễ độ xuất phát từ tình 
+			cảm chân thật của đối tượng. Thái độ xã giao ít khi qua mắt được 
+			bạn. Bạn chân tình nhưng không cởi mở lắm. Bạn trọng chữ tín và 
+			chung thuỷ.<BR/><BR/>Về sự nghiệp, bạn không chịu nổi sự lệ thuộc, yêu 
+			công việc và làm việc cật lực, liều lĩnh, táo bạo trong quyết định, 
+			có nhiều thăng tiến trong cuộc sống. Bạn khá bảo thủ và luôn đòi hỏi 
+			sự hoàn thiện ở bản thân và người khác.&nbsp;<BR/><BR/>Bạn sẽ hợp với những 
+			người có ngày sinh: 2,3,5,7,11,12,14,16,20,21,23,25,29,30.&nbsp;<BR/><BR/>
+			Những nhân vât nổi tiếng mang số 1: Jason Prestley, Sharon Stone, 
+			Mark – Paul Gosselar…&nbsp;<BR/></SPAN>
+			<SPAN id=hsdesc2 style="DISPLAY: none"  class="div1">   
+           Số 2 biểu tượng của sự cân bằng. Số 2 liên quan mật thiết đến sự cân 
+			xứng của cơ thể con người (tay, chân, mắt,...). Nó còn biểu thị cho 
+			sự mực thước và giản dị. Con số nào cũng có thể dễ dàng chia cho 2.&nbsp;<BR/><BR/>   
+           Bạn là người hay quan tâm giúp đỡ người khác và yêu thích sự công 
+			bằng. Bản tính dịu dàng giúp bạn dễ làm bạn với mọi người. Bạn là 
+			người có năng khiếu về âm nhạc. Đôi khi bạn dễ bị tổn thương vì tính 
+			nhạy cảm của mình. Do vậy bạn nên làm bạn với những người tế nhị, 
+			biết cân nhắc. Bạn có khuynh hướng nghiêng về phong cách truyền 
+			thống hơn hiện đại.&nbsp;<BR/><BR/>Về tình cảm, đối với bạn yêu là để tiến 
+			đến hôn nhân. Khi lập gia đình rồi ít để tâm đến những chuyện bay 
+			bướm dù lòng đầy cảm xúc.<BR/><BR/>Sự nghiệp: thường có những mối quan 
+			hệ xã hội tốt nên khó bị thất nghiệp. Ít có đột biến trong nấc thang 
+			sự nghiệp. Dễ lên chức nhỏ nhưng chắc chắn.<BR/><BR/>Nhược điểm: phản 
+			ứng chậm trong môi trường nhiều biến động.<BR/><BR/>Bạn sẽ hợp với 
+			những người có ngày sinh: 
+			2,4,6,8,9,11,13,15,17,18,20,22,24,26,27,31.&nbsp;<BR/><BR/>   
+           Những nhân vật nổi tiếng mang số 2: Wynona Ryder, Keanu Reeves, 
+			Antonio Sanbato Jr…&nbsp;<BR/></SPAN>
+			<SPAN id=hsdesc3 style="DISPLAY: none"  class="div1">   
+           Số 3 là biểu tượng của sự linh hoạt. Hãy xem các thế chân vạc; những 
+			hệ thống điều hành tổ chức theo sơ đồ tam giác: gần như không có chi 
+			tiết thừa.&nbsp;<BR/><BR/>Bạn là người vui tính, thích phiêu lưu mạo hiểm, 
+			thích hoạt động và là người có đầu óc sáng tạo. Bạn biết tính toán 
+			nhưng không quá lý tài. Bạn có năng khiếu đặc biệt về tạo mẫu quần 
+			áo và pha trộn màu sắc. Vì vậy trang phục của bạn sẽ tôn thêm vẽ đẹp 
+			của bạn. Mẫu người số 3 là mẫu người có năng khiếu về giao thiệp. 
+			Tuy nhiên, đôi khi nó cũng làm bạn nói hơi “bị”nhiều.<BR/><BR/>Về tình 
+			cảm, luôn giữ thế chủ động dù sẵn sàng dấn vào những chuyện tình 
+			lãng mạn. Yêu là cưới nhưng phải là người lý tưởng kia.<BR/><BR/>Về sự 
+			nghiệp, bạn thích hợp với những công việc có liên quan đến giao 
+			tiếp, bạn khéo léo trong thương thuyết, và biết cách làm cho công 
+			việc thích nghi với mình.<BR/><BR/><BR/>Bạn sẽ hợp với những người có 
+			ngày sinh: 
+			1,3,5,6,8,9,10,12,14,15,17,18,19,20,21,23,24,26,27,28,30.&nbsp;<BR/><BR/>
+           Những nhân vật nổi tiếng mang số 3: Claire Danes, Tom Cruise, Brendan 
+			Fraser…&nbsp;<BR/></SPAN>
+			<SPAN id=hsdesc4 style="DISPLAY: none" class="div1">
+           Số 4 là biểu tượng của kín đáo, kỷ luật và ổn định. Là bội số nhỏ 
+			nhất của 2, số 4 vừa có tính mực thước vừa có tính chất rộng rãi, dễ 
+			dung nạp những tính cách khác nó.&nbsp;<BR/><BR/>Bạn là người mạnh mẽ và 
+			cương quyết, đáng tin cậy, kiên nhẫn, chính xác và có óc tổ chức. 
+			Bạn luôn cố gắng hết sức mình trong mọi công việc nên thường đạt kết 
+			quả cao. Bạn sẽ là một người bạn chân thành, một công dân tốt. Nhưng 
+			đôi khi bạn cũng hơi cứng đầu. bạn không chùn bước trước những khó 
+			khăn. Bạn thích săn lùng và rất thành thạo trong việc chọn lựa trang 
+			phục và màu sắc thích hợp cho bạn.&nbsp;<BR/><BR/>Về tình cảm, bạn ít bộc 
+			lộ, thường giữ kín những tình cảm sâu đậm, và không bao giờ phá vỡ 
+			những nguyên tắc riêng của mình.<BR/><BR/>   
+           Về sự nghiệp, bạn là con người của hiệu quả, được giao phó những 
+			trọng trách. Thành công nhờ kiên trì.<BR/><BR/>Bạn sẽ hợp với những 
+			người có ngày sinh: 2,4,6,7,9,11,13,15,16,18,20,22,24,25,27,29.&nbsp;<BR/><BR/>   
+           Những nhân vật nổi tiếng mang số 4: Jemie Waters, Drew Barrymore, 
+			Jonathan Brandis…&nbsp;<BR/></SPAN>
+			<SPAN id=hsdesc5 style="DISPLAY: none" class="div1">   
+           Số 5 làcon số của sự năng động, khoái hoạt và sáng tạo. Hãy để ý đến 
+			những con số 5 của cơ thể: ngũ quan, bàn tay, bàn chân,... . Bạn 
+			nghĩ sao về những nhãn hiệu rất ấn tượng: thuốc lá 555, nước hoa 
+			Chanel No 5 ???!!!&nbsp;<BR/><BR/>Bạn là một người duyên dáng, năng nổ, 
+			giàu chất nghệ sĩ. Bạn sẽ kết bạn và thích tham gia hoạt động xã 
+			hội. Khíêu ăn nói và sự thông minh sẽ giúp bạn gây cảm tình với bạn 
+			bè và đồng nghiệp. Bạn thích chơi thể thao nhưng bạn không thích 
+			cạnh tranh với người khác. Bạn không phải là người kiên nhẫn nên tập 
+			trung để làm việc gì đó là thử thách đối với bạn. Đi mua sắm, chạy 
+			theo thời trang là sở thích của bạn.<BR/><BR/>   
+           Về tình cảm, bạn bẩm sinh là người quyến rũ, ưa thích các cuộc chinh 
+			phục hoặc những mối tình kỳ lạ. Bạn hãy coi chừng vì bạn có thể tìm 
+			đến hôn nhân như một cảm hứng, dù yêu hay không.<BR/><BR/>Về sự 
+			nghiệp, Thích hợp với những công việc có tính chất sáng tạo hoặc 
+			công việc có thay đổi bất ngờ như du lịch, khảo cổ, làm báo, thiết 
+			kế,...&nbsp;<BR/><BR/>   
+           Bạn sẽ hợp với những người có ngày sinh: 
+			1,3,5,7,9,10,12,14,16,17,18,20,21,23,26,27,28,30.&nbsp;<BR/><BR/>Những nhân 
+			vật nổi tiếng mang số 5: Tiffany – Amber Thessen, Mark Wahlberg 
+			Vedder, Dan Cortess…&nbsp;<BR/></SPAN>
+			<SPAN id=hsdesc6 style="DISPLAY: none" class="div1">   
+           Số 6 là bội số của cả hai con số trái tính nhau: 2 và 3. Biểu tượng 
+			của sự hòa đồng, liên hiệp và cả thỏa hiệp nữa. Đây là con số của 
+			nhiều toan tính, nhiều ước muốn.&nbsp;<BR/><BR/>Bản tính chân thành và quan 
+			tâm đến mọi người giúp bạn chiếm được cảm tình của bạn bè và gia 
+			đình. Số 6 là số của lòng bao dung và sự tha thứ, vì vậy bạn rất 
+			thích hợp với những hoạt động bên ngoài và làm những việc từ thiện. 
+			Bạn có thể trở thành một lãnh đạo giỏi hoặc một nhân viên tốt bởi 
+			bạn yêu thích sự công bằng. Bạn cũng là con người biết tận hưởng, 
+			rất chuộng tiện nghi và các thú vui giải trí. Bạn có thể không phải 
+			là nhà tạo mốt nhưng bạn có khiếu chọn lựa màu sắc phù hợp với vóc 
+			dáng của bạn.<BR/><BR/>Về tình cảm, luôn tìm kiếm cảm giác vui sướng, 
+			hạnh phúc của tình yêu, thích chiều chuộng và được chiều chuộng. Dù 
+			biểu hiện tình cảm có vẻ nông nổi nhưng người số 6 lại biết cách 
+			chăm lo gia đình khi kết hôn.<BR/><BR/>Về sự nghiệp, hợp với công việc 
+			kinh doanh, đổi chác, nhưng đôi khi số 6 khó thành công bởi ý muốn 
+			được lòng tất cả mọi người.&nbsp;<BR/><BR/>   
+           Bạn sẽ hợp với những người có ngày sinh: 
+			2,3,4,6,7,9,11,12,13,15,16,18,20,21,24,25,29,30.&nbsp;<BR/><BR/>Những nhân 
+			vật nổi tiếng mang số 6: Lara Flynn Boyle, Tori Spelling, David 
+			Charvet…&nbsp;<BR/></SPAN>
+			<SPAN id=hsdesc7 style="DISPLAY: none" class="div1">
+           Số 7 bất kỳ con số nào từ 1 đến 9 muốn chia xẻ với số 7 đều dắt dây 
+			một đống lít nhít sau dấu phẩy, ngoại trừ chính nó. Đây là con số 
+			của sự độc đáo, thậm chí lập dị và cô đơn.&nbsp;<BR/><BR/>Tính cách của bạn 
+			làm cho bạn trở nên khác thường, đôi khi bạn cảm thấy cô đơn. Bạn 
+			thích các hoạt động như: âm nhạc, nghệ thuật, thể thao và ngay cả 
+			trong lĩng vực khoa học, lịch sử, toán học. Bạn thích khám phá những 
+			bí mật trong cuộc sống, thích học hỏi và nghiên cứu. Thật ra bạn vùi 
+			đầu vào quyển sách là để lẩn tránh những công việc mà bạn không 
+			thích. Khả năng biết kết hợp tính tự chủ và khéo léo giúp bạn thích 
+			hợp với những môn thể thao như: tennis, judo hoặc môn nhào lộn. Bạn 
+			rất ngại bàn về chuyện riêng tư nhưng khả năng “biết lắng nghe” đã 
+			khiến bạn trở thành người dễ mến. Bạn có cách ăn mặc lịch sự, trang 
+			nhã.<BR/><BR/>   
+           Về tình cảm, bạn đòi hỏi cao ở đối tượng, kết hợp và cắt đứt tình cảm 
+			đều rõ ràng, ít tuân theo lề lói xã giao. Có khuynh hướng thích 
+			người có tính sáng tạo hoặc nghệ sĩ tính.<BR/><BR/>Về sự nghiệp, bạn 
+			không thích hợp với nề nếp, công chức, hay nghề nghiệp mang tíng 
+			giao tế.&nbsp;<BR/><BR/>   
+           Bạn sẽ hợp với những người có ngày sinh: 
+			1,2,4,5,7,9,10,11,13,14,16,18,20,22,23,25,27,29,31.&nbsp;<BR/><BR/>Những 
+			nhân vật nổi tiếng mang số 7: John Fitzerald Kenned, Kate Moss, 
+			Janet Jackson, Julia Roberts.&nbsp;<BR/></SPAN>
+			<SPAN id=hsdesc8 style="DISPLAY: none" class="div1">   
+           Số 8 là bội số của 2 và 4, có một biểu tượng chung: ổn định. Nên số 8 
+			biểu tượng cho sự cầu toàn đến cực đoan. Đây là con số của năng lực 
+			khá toàn diện và tính đòi hỏi cao.&nbsp;<BR/><BR/>   
+           Bạn là người đầy tham vọng, đam mê, can đảm, thích lao vào các cuộc 
+			chinh phục dù ở bất kỳ lĩnh vực nào. Nhiều khi bạn trở nên hống hách 
+			và thiếu kiên nhẫn đối với những người không có khả năng như bạn. 
+			Nhưng nên nhớ rằng giúp đỡ người khác thì bạn sẽ chiếm được cảm tình 
+			và sự tôn trọng của người xung quanh hơn. Bạn thích những cái tuyệt 
+			đối hơn là tương đối và cách ăn mặc của bạn phản ánh điều đó.<BR/><BR/>   
+           Về tình cảm, bạn có khuynh hướng trấn áp người yêu, ưa sở hữu, yêu 
+			rất nồng nhiệt, và hay ghen.<BR/><BR/>Bạn sẽ hợp với những người có 
+			ngày sinh:<BR/><BR/>2,3,5,7,9,11,12,14,16,18,20,21,23,25,27,29,30<BR/><BR/>   
+           Những nhân vật nổi tiếng mang số 8: Chris O’donell, Patricia 
+			Arquette, Jonathan – Taylor Thimas,…<BR/></SPAN>
+			<SPAN id=hsdesc9 style="DISPLAY: none" class="div1">   
+           Số 9 là số lớn nhất trong các số đơn. Biểu hiện cho lòng quảng đại, 
+			tính nồng nhiệt, và khát vọng thầm kín, lòng hướng thượng.<BR/><BR/>
+			Bạn giàu tình cảm, vị tha. Nhưng vì dễ xúc động nên dễ lâm vào tình 
+			trạng lưỡng lự, băn khoăn và tự dằn vặn mình. Bạn có năng khiếu có 
+			về lãnh đạo. Bạn là người dễ thích nghi với hoàn cảnh, điều đó làm 
+			cho bạn có nhiều bạn bè hơn. Bạn thích tự quyết định cho mình và ít 
+			bị ảnh hưởng bởi những tác động xung quanh. Nhưng bạn cũng biết tôn 
+			trọng những luật lệ trong một cuộc vui nào đó. Bạn rất cẩn thận 
+			trong việc mua sắm. Vì vậy, ít khi bạn cảm thấy hối tiếc về những gì 
+			bạn đã mua.<BR/><BR/>   
+           Về tình cảm, bạn là người trung thành, chung thuỷ, hay đòi hỏi người 
+			thân thường xuyên bộc lộ tình cảm đối với mình. Bạn cần một người 
+			tỉnh táo và cứng rắn bên cạnh.<BR/><BR/>Về sự nghiệp, bạn có thể sáng 
+			chói trong những công việc mang tính lý tưởng như công tác từ thiện, 
+			công trình công ích xã hội. Bạn xả thân không biết mệt mỏi vì nhân 
+			loại.<BR/><BR/>
+           Bạn sẽ hợp với những người có ngày sinh:<BR/><BR/>   
+           2,3,6,8,9,10,11,12,16,17,18,20,21,24,26,27,30.<BR/><BR/>
+           Những nhân vật nổi tiếng mang số 9: Brat Pitt, Christian Slater, 
+			Mariah Carey, Chelsea Clinton, Johnny Depp … </SPAN>
+  </div></td></tr>
+  </tbody></table>
+
+

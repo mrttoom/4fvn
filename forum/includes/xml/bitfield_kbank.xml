@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bitfields product="vbulletin">
+	<bitfielddefs>
+		<group name="kbank">
+			<group name="display_elements">
+				<bitfield name="kbank_show_points">1</bitfield>
+				<bitfield name="kbank_show_toprichest">2</bitfield>
+				<bitfield name="kbank_show_items">4</bitfield>
+				<bitfield name="kbank_show_award">8</bitfield>
+				<bitfield name="kbank_show_thank">16</bitfield>
+			</group>
+		</group>
+	</bitfielddefs>
+</bitfields>

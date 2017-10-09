@@ -1,0 +1,43 @@
+body
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+a:link, body_alink{	color: #0560a6;	text-decoration: none;}a:visited, body_avisited{	color: #0560a6;	text-decoration: none;}a:hover, a:active, body_ahover{	color: #FF6633;	text-decoration: none;}
+.smallfont
+{
+	font: 9px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.time
+{
+	color: #666686;
+}
+.alt
+{
+	background: #ffffff;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tborder
+{
+	background: #D1D1E1;
+	color: #000000;
+	border: 1px solid #0B198C;
+}
+.alt1, .alt1Active
+{
+	background: #F5F5FF;
+	color: #000000;
+}
+.alt2, .alt2Active
+{
+	background: #E1E4F2;
+	color: #000000;
+}
+
+.button
+{
+}
+.bginput
+{
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<navgroups product="vbulletin">
+	<navgroup phrase="kbank" displayorder="17">
+		<navoption displayorder="1">
+			<text>Edit Settings</text>
+			<link>options.php?dogroup=kbank&amp;sdo=options</link>
+		</navoption>
+		<navoption displayorder="2">
+			<text>Donate To Members</text>
+			<link>kbankadmin.php?do=donate_to_all</link>
+		</navoption>
+		<navoption displayorder="3">
+			<phrase>kbank_bank_man</phrase>
+			<link>kbankadmin.php?do=bank_man</link>
+		</navoption>
+		<navoption displayorder="6">
+			<text>kBank Salary Center</text>
+			<link>kbankadmin.php?do=salary</link>
+		</navoption>
+		<navoption displayorder="9">
+			<text>kBank AdminCP Log</text>
+			<link>kbankadmin.php?do=do_view_logs</link>
+		</navoption>
+		<navoption displayorder="99">
+			<text>kBank Advanced Tools</text>
+			<link>kbankadmin_tools.php?do=list</link>
+		</navoption>
+	</navgroup>
+	<navgroup text="kBank Item" displayorder="17">
+		<navoption displayorder="1">
+			<text>Edit Settings</text>
+			<link>options.php?dogroup=kbank_item&amp;sdo=options</link>
+		</navoption>
+		<navoption displayorder="4">
+			<text>Item Types Management</text>
+			<link>kbankadmin.php?do=type_man</link>
+		</navoption>
+		<navoption displayorder="5">
+			<text>Items Management</text>
+			<link>kbankadmin.php?do=item_man</link>
+		</navoption>
+		<navoption displayorder="5">
+			<text>Add Item</text>
+			<link>kbankadmin.php?do=item_update</link>
+		</navoption>
+	</navgroup>
+	<navgroup phrase="kbank_award" displayorder="17">
+		<navoption displayorder="1">
+			<text>Edit Settings</text>
+			<link>options.php?do=options&amp;dogroup=kbank_award</link>
+		</navoption>
+	</navgroup>	
+	<navgroup phrase="kbank_hide" hr="true" displayorder="17">
+		<navoption displayorder="1">
+			<text>Edit Settings</text>
+			<link>options.php?do=options&amp;dogroup=kbank_hide</link>
+		</navoption>
+	</navgroup>	
+</navgroups>

@@ -1,0 +1,6 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteBase /music
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)\.html$ index.php [NC]

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<bitfields product="psionic_hide">
+	<bitfielddefs>
+		<group name="ugp">
+ 			<group name="hhroptions">
+				<bitfield name="enable_hposts_tag" group="hhroptions" phrase="enable_hposts_tag">1</bitfield>
+				<bitfield name="enable_htnx_tag" group="hhroptions" phrase="enable_htnx_tag">4</bitfield>
+				<bitfield name="enable_hrply_tag" group="hhroptions" phrase="enable_hrply_tag">8</bitfield>
+				<bitfield name="enable_hrplytnx_tag" group="hhroptions" phrase="enable_hrplytnx_tag">128</bitfield>
+				<bitfield name="enable_showtogroups_tag" group="hhroptions" phrase="enable_showtogroups_tag">2</bitfield>
+				<bitfield name="enable_stu_tag" group="hhroptions" phrase="enable_stu_tag">512</bitfield>
+				<bitfield name="can_override_hide" group="hhroptions" phrase="can_override_hide">16</bitfield>
+				<bitfield name="can_post_thanks" group="hhroptions" phrase="can_post_thanks">256</bitfield>
+				<bitfield name="can_delete_own_thanks" group="hhroptions" phrase="can_delete_own_thanks">32</bitfield>
+				<bitfield name="can_delete_oth_thanks" group="hhroptions" phrase="can_delete_oth_thanks">64</bitfield>
+			</group>
+		</group>
+		<group name="misc">
+			<group name="hhroptions">
+				<bitfield name="enable_hposts_tag">1</bitfield>
+				<bitfield name="enable_htnx_tag">4</bitfield>
+				<bitfield name="enable_hrply_tag">8</bitfield>
+				<bitfield name="enable_hrplytnx_tag">16</bitfield>
+				<bitfield name="enable_showtogroups_tag">2</bitfield>
+				<bitfield name="enable_stu_tag">128</bitfield>
+				<bitfield name="hidetag_thankyou_system">256</bitfield>
+				<bitfield name="hidetag_thanks_bump">512</bitfield>
+				<bitfield name="hidetag_thanks_fponly">32</bitfield>
+				<bitfield name="hidetag_thanks_in_closed_threads">64</bitfield>				
+			</group>
+		</group>
+	</bitfielddefs>
+</bitfields>

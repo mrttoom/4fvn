@@ -1,0 +1,210 @@
+﻿body
+{
+  	color: #CCCCCC;
+	background: #000000;
+	margin: 0;
+	    SCROLLBAR-FACE-COLOR: #000000;
+    SCROLLBAR-HIGHLIGHT-COLOR: #666666;
+    SCROLLBAR-SHADOW-COLOR: #666666;
+    SCROLLBAR-3DLIGHT-COLOR:#000000;
+    SCROLLBAR-ARROW-COLOR: #666666;
+    SCROLLBAR-TRACK-COLOR: #000000;
+    SCROLLBAR-DARKSHADOW-COLOR: #000000;	
+}
+
+td
+{
+font-family: Verdana, Arial;
+}
+#footer{
+	color: #9EA0A2;
+	font-family: Arial;
+	font-size: 10px;
+	padding-top: 18px;
+	position: relative;
+	clear: both;
+	font-weight: bold;
+}
+
+.urbangreymenu{
+width: 200px; /*width of menu*/
+border: #444444 1px solid;
+background-color:#333333;
+
+}
+.submenu
+{
+	/*border: #444444 1px solid;*/
+	BACKGROUND-COLOR: #333333;
+
+}
+.urbangreymenu .headerbar{
+	background-image: url('Images/title_1.jpg');
+	BORDER-RIGHT: #444444 1px solid;
+	BORDER-TOP: #444444 1px solid;
+	BORDER-LEFT: #444444 1px solid;
+	BACKGROUND-COLOR: #333333;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	BORDER-COLLAPSE: collapse;
+	height: 25px;
+	font-size: 0.917em;
+	font-weight: bold;
+	margin-bottom: 10px; /*bottom spacing between header and rest of content*/
+	COLOR: #B6CCD6;
+	padding-left: 20px;
+}
+
+.urbangreymenu .headerbar a{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.urbangreymenu ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 0; /*bottom spacing between each UL and rest of content*/
+}
+
+.urbangreymenu ul li{
+	padding-bottom: 2px; /*bottom spacing between menu items*/
+
+}
+
+.ItemNoselected{
+	background-image: url('Images/no.ico');
+	background-repeat: no-repeat;
+	background-position: bottom left;
+}
+.Itemselected{ /*hover state CSS*/
+	background-image: url('Images/ok.ico');
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-color: #666;
+
+}
+.urbangreymenu ul li a{
+	font: normal 12px Arial;
+	color: #FFBC79;
+	padding: 5px 0;
+	line-height: 17px;
+	padding-left: 25px; /*link text is indented 8px*/
+	text-decoration: none;
+	display: block;
+}
+.urbangreymenu ul li a:hover{ /*hover state CSS*/
+	font: normal 12px Arial;
+	background-color: #666;
+	color: #FFBC79;
+	padding: 5px 0;
+	line-height: 17px;
+	padding-left: 25px; /*link text is indented 8px*/
+	text-decoration: none;
+	display: block;
+	background-image: url('Images/ok.ico');
+	background-repeat: no-repeat;
+	background-position: bottom left;
+
+}
+.main
+{
+width: 771px;
+border-top: solid 1px #999999;
+border-bottom: solid 1px #999999;
+background-color: #333333;
+}
+.tieude
+{
+	color:#9C3;
+	font-family:Times New Roman;
+	font-size:25px;
+}
+
+a:link, a:visited {
+		color: #066; text-decoration: none;
+		font-weight: normal;
+	}
+	
+a:hover {
+		color: #096;	text-decoration: underline;
+		font-weight: normal;
+	}
+.div1
+{
+	font-family: Arial;font-size: 13px;
+	color: #699;
+}
+.ActiveTab
+{
+	text-decoration:none;
+	font-family:Arial;font-size:11px;
+	background-color: #006600;
+	color: #B6CCD1;
+	text-align:center;
+	padding-left: 2px;
+	padding-bottom: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-weight:normal;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 1px;
+}
+.ActiveTab a:link,.ActiveTab a:visited
+{
+	text-decoration:none;
+	font-family:Arial;font-size:11px;
+	text-align:center;color:#0099FF;
+}
+.ActiveHover
+{
+
+	background-color: #333;
+	color: #FFF;
+	border: #444 1px solid;
+	padding-left: 2px;
+	padding-bottom: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-weight:normal;
+	margin-bottom: 1px;
+	margin-left: 1px;
+	margin-right: 1px;
+	margin-top: 1px;
+	text-align:center;
+
+}
+.ActiveHover a:link,.ActiveHover a:visited
+{
+	text-decoration:none;
+	font-family:Arial;font-size:11px;
+	color:white;
+	padding-top:5px;
+}
+.ActiveHover:hover
+{
+	text-decoration:none;
+	font-family:Arial;font-size:11px;
+	background-color: #006600;
+	color: #B6CCD1;
+	text-align:center;width:100px;height:24px;
+	padding-top:5px;
+
+/*	text-decoration:none;
+	font-family:Arial;font-size:11px;
+	background-color:#FFE2B7;
+	text-align:center;width:100px;height:24px;
+	padding-top:5px;
+	color:white;
+*/
+}
+.ActiveHover a:hover
+{
+	text-decoration:none;
+	font-family:Arial;font-size:11px;
+	color:#0099FF;
+	padding-top:5px;
+
+}
